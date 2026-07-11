@@ -5,6 +5,7 @@ function setup() {
   createCanvas(600, 400);
   background("#00ffc0")
 }
+
 function draw() {
   // Challenge 1: An eye using ellipse() function
 
