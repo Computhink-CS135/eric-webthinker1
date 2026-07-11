@@ -15,7 +15,7 @@ function draw() {
   // Challenge 2: A face using circle() function
   circle(100, 50, 100);
   circle(400, 50, 100);
-  circle(400, 50, 100);
+  circle(200, 200, 300);
 
   
 
