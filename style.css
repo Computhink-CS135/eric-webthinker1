@@ -1,4 +1,6 @@
-header
+header {
+  background-color: aqua;
+}
 html, body {
     margin: 0;
     padding: 0;
