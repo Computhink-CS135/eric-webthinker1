@@ -34,6 +34,7 @@ function draw() {
   // rect(200, 300, 200, 50)
   
   // Challenge 5: A square face using quad() function
+  strokeweight(5)
   stroke("#e3b878");
   fill("#f7ddb5");
   quad(500,50, 100,50, 100,350, 500,350);
