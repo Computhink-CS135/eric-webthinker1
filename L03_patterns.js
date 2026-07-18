@@ -13,7 +13,7 @@ function draw() {
   // circle(525,200 ,100)
 
   // Task 1: Colour Gradient
-  for (let i = 1; i > 4; i++) {
+  for (let i = 1; i < 6; i++) {
     console.log(i);
     circle(50 + i * 50, 100, 40);
   }
