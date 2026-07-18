@@ -34,7 +34,7 @@ function draw() {
   // rect(200, 300, 200, 50)
   
   // Challenge 5: A square face using quad() function
-  quad(100,50,500,50,100,350,100,350,)
+  quad(100,50,500,50,100,350,100,350,500)
   
   // Challenge 6: Add some colours to the drawings in the above challenges
 
