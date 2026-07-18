@@ -43,7 +43,7 @@ function draw() {
   circle(200, 175, 50);
   circle(400, 175, 50);
   strokeWeight();
-  stroke("#000000");
+  stroke("#ff5d5d");
   fill("#ff5656");
   quad(450,250, 150,250, 200,300, 400,300);
 
