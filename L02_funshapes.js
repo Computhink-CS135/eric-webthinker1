@@ -34,12 +34,12 @@ function draw() {
   // rect(200, 300, 200, 50)
   
   // Challenge 5: A square face using quad() function
-  fill("#d4be9e")
+  fill("#f7ddb5")
   quad(500,50, 100,50, 100,350, 500,350);
   fill("#000000")
   circle(200, 175, 50);
   circle(400, 175, 50);
-  fill("#000000")
+  fill("#ff5656")
   quad(450,250, 150,250, 200,300, 400,300);
 
   // Challenge 6: Add some colours to the drawings in the above challenges
