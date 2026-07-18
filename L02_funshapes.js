@@ -39,6 +39,7 @@ function draw() {
   fill("#000000")
   circle(200, 175, 50);
   circle(400, 175, 50);
+  fill("#000000")
   quad(450,250, 150,250, 200,300, 400,300);
 
   // Challenge 6: Add some colours to the drawings in the above challenges
