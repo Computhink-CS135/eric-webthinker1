@@ -36,7 +36,7 @@ function draw() {
   // Challenge 5: A square face using quad() function
   fill("#d4be9e")
   quad(500,50, 100,50, 100,350, 500,350);
-  fill(225)
+  fill("#000000")
   circle(200, 175, 50);
   circle(400, 175, 50);
   quad(450,250, 150,250, 200,300, 400,300);
