@@ -38,6 +38,7 @@ function draw() {
   stroke("#e3b878");
   fill("#f7ddb5");
   quad(500,50, 100,50, 100,350, 500,350);
+  strokeWeight(0)
   fill("#000000");
   circle(200, 175, 50);
   circle(400, 175, 50);
