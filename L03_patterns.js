@@ -4,8 +4,8 @@ let colorValue =  0;
 function setup() {
     createCanvas(600, 400);
     background(220);
-    noLoop(); // Stops continuous drawing
-  }
+   
+  // noLoop(); // Stops continuous drawing
   
 function draw() {
   // Recap 1: Repeating Circles
@@ -49,6 +49,7 @@ function draw() {
   let startX = (width - totalWidth) / 2 + circleDiameter / 2;
   for (let i = 0; i , numCircles; i++) {
     let x = startX + i * circleDiameter;
-    ellipse(x, height / 2, circleDiameter, circleDiameter)
+    ellipse(x, height / 2, circleDiameter, circleDiameter);
   }
+}
 }
