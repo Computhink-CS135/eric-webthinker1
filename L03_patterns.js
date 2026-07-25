@@ -32,14 +32,14 @@ function draw() {
   // }
 
   // Task 4: Grid of Squares
-  for (let row = 0; row < 5; row++) {
-    for (let col = 0; col < 5; col++) {
-      if ((row + col) % 2 == 0) {
-        fill(0)
-      } else {
-        fill(255)
-      }
-      rect(col * 80, row * 80, 80, 80)
-    }
-  }
+//   for (let row = 0; row < 5; row++) {
+//     for (let col = 0; col < 5; col++) {
+//       if ((row + col) % 2 == 0) {
+//         fill(0)
+//       } else {
+//         fill(255)
+//       }
+//       rect(col * 80, row * 80, 80, 80)
+//     }
+//   }
 }
