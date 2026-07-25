@@ -25,7 +25,6 @@ function draw() {
   // circle(100, 100, 100);
   fill(colorValue);
   colorValue++;
-  fill(colorValue);
   colorValue--;
 
   // Task 3: Row of Circles
