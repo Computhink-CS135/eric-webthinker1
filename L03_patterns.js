@@ -31,6 +31,7 @@ function draw() {
   //   circle(50 + 50 * i, 100, 50);
   // }
 
-  // Task 4: Grid of Circles
+  // Task 4: Grid of Squares
+  
   rect(0, 0, 100, 100)
 }
