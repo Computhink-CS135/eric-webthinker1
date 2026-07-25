@@ -36,7 +36,6 @@ function draw() {
     for (let col = 0; col < 5; col++)
       fill(row % 2 * 255)
       rect(col * 80, row * 80, 80, 80)
-
   }
     for (let col = 0; col < 5; col++)
       fill(row % 2 * 255)
