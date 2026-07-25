@@ -23,10 +23,10 @@ function draw() {
 
   // Task 2: Colour Loop
   // circle(100, 100, 100);
-  for (let i = 0; i > 1;) {}
+  for (let i = 0; i > 1;) {
   fill(colorValue);
   colorValue++;
-
+  }
   // Task 3: Row of Circles
   // for (let i = 0; i < 10; i++) {
   //   fill(i % 2 * 255);
