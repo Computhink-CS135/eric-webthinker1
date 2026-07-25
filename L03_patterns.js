@@ -1,5 +1,5 @@
 
-let colorValue; 200
+let colorValue;
 
 function setup() {
     createCanvas(600, 400);
