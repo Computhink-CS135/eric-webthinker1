@@ -26,7 +26,7 @@ function draw() {
   // colorValue++;
 
   // Task 3: Row of Circles
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 10000000000; i++) {
     fill(i % 2 * 255);
     circle(50 + 50 * i, 100, 50)
   }
