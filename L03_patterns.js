@@ -43,5 +43,6 @@ function draw() {
 //     }
 //   }
 
-  let circle
+  let circleDiameter = 30
+  
 }
