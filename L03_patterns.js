@@ -42,5 +42,6 @@ function draw() {
 //       rect(col * 80, row * 80, 80, 80)
 //     }
 //   }
-  circle(width / 2, height / 2)
+
+  
 }
