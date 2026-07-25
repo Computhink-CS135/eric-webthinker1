@@ -34,5 +34,5 @@ function draw() {
   // Task 4: Grid of Squares
   for (let i = 0; i < 5; i++)
     fill(i % 2 * 255)
-    rect(0 , 0, 100, 100)
+    rect(0 + 100 , 0, 100, 100)
 }
