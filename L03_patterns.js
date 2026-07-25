@@ -43,5 +43,5 @@ function draw() {
 //     }
 //   }
 
-  
+  let circle
 }
