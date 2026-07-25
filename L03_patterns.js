@@ -26,7 +26,9 @@ function draw() {
   // colorValue++;
 
   // Task 3: Row of Circles
-  
+  for (let i = 0; i < 5; i++) {
+    
+  }
 
   // Task 4: Grid of Circles
 }
