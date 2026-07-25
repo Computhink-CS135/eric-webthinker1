@@ -32,5 +32,5 @@ function draw() {
   }
 
   // Task 4: Grid of Circles
-  rect(0, 0)
+  rect(0, 0, 100, 100)
 }
