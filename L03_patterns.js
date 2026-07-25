@@ -28,7 +28,7 @@ function draw() {
   // Task 3: Row of Circles
   for (let i = 0; i < 5; i++) {
     fill(1 % 2 * 255);
-    Circle(100 * i, 100, 100)
+    circle(200 * i, 100, 100)
   }
 
   // Task 4: Grid of Circles
