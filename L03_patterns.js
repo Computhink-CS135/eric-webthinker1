@@ -26,10 +26,10 @@ function draw() {
   // colorValue++;
 
   // Task 3: Row of Circles
-  for (let i = 0; i < 10; i++) {
-    fill(i % 2 * 255);
-    circle(50 + 50 * i, 100, 50);
-  }
+  // for (let i = 0; i < 10; i++) {
+  //   fill(i % 2 * 255);
+  //   circle(50 + 50 * i, 100, 50);
+  // }
 
   // Task 4: Grid of Circles
   rect(0, 0, 100, 100)
