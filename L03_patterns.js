@@ -1,5 +1,5 @@
 
-let colorValue; 0
+let colorValue =  0;
 
 function setup() {
     createCanvas(600, 400);
@@ -45,5 +45,5 @@ function draw() {
 
   let circleDiameter = 30;
   let numCircles = 5;
-  
+  let totalWidth = numircle
 }
