@@ -5,7 +5,7 @@ function setup() {
   noLoop(); // Stops continuous drawing
 }
 function draw() {
-    fill(#ff0000);
+    fill(shapecolour);
     ellipse(200, 200, 80, 80);
 }
 function mousePressed() {
