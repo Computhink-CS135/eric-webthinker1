@@ -1,11 +1,13 @@
 let shapecolour = "#ff0000"
-let perivousmouseX = 50
+let circlesize = 0let perivousmouseX = 50
+
 
 function setup() {
     createCanvas(600, 400);
     background(225);
 //   noLoop(); // Stops continuous drawing
 }
+
 // function draw() {
 //     fill(shapecolour);
 // }
@@ -16,6 +18,7 @@ function setup() {
 //     noStroke();
 //     ellipse(200, 200, 80, 80)
 // }
+
 // function mouseReleased() {
 //     fill("#ffffff")
 //     ellipse(200, 200, 80, 80)
