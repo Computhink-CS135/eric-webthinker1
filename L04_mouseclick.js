@@ -14,5 +14,5 @@ function mousePressed() {
     fill(randomcolour);
     nostroke();
     circleSize = random(100);
-    ellipse(mouseX, mouseY, c)
+    ellipse(mouseX, mouseY, circleSize, circleSize)
 }
