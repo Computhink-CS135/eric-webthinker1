@@ -43,11 +43,9 @@ function setup() {
 function mouseDragged() {
     for (let i = 0; i < 5; i++) {
         let randomsize = random(10, 30);
-    let randomcolour = color(random(255), random(255), random(255));
-    fill(randomcolour)
-    circle(mouseX, mouseY, randomsize)}
-    let randomsize = random(10, 30);
-    let randomcolour = color(random(255), random(255), random(255));
-    fill(randomcolour)
-    circle(mouseX, mouseY, randomsize)
+        let randomcolour = color(random(255), random(255), random(255));
+        fill(randomcolour)
+        circle(mouseX, mouseY, randomsize)
+    }
+    
 }
