@@ -42,7 +42,7 @@ function setup() {
 
 function mouseDragged() {
     for (let i = 0; i < 5; i++) {
-        let randomsize = random(10, 30);
+        let randomsize = random(5, 10);
         let randomcolour = color(random(255), random(255), random(255));
         let randomY = random(mouseY - 10, mouseY + 10);
         let randomX = random(mouseX - 10, mouseX + 10);
