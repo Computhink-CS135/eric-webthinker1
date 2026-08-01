@@ -10,5 +10,5 @@ function draw() {
     ellipse(200, 200, 80, 80);
 }
 function mousePressed() {
-    let randomcolour = color(random(255))
+    let randomcolour = color(random(255),random())
 }
