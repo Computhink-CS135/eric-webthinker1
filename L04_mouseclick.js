@@ -41,5 +41,5 @@ function setup() {
 // }
 
 function mouseDragged() {
-    ellipse(mouse)
+    ellipse(mouseX, mouseY, )
 }
