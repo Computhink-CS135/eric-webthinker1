@@ -1,5 +1,4 @@
 let shapecolour = "#ff0000"
-let perivousmouseX = mouseX
 
 function setup() {
     createCanvas(600, 400);
@@ -21,7 +20,7 @@ function setup() {
 // }
 function mouseMoved() {
     let circlesize = 0
-    // let perivousmouseX = mouseX
+    let perivousmouseX = mouseX
     if (perivousmouseX < mouseX) {
         circlesize++
     } else {
