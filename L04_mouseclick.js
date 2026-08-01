@@ -4,3 +4,7 @@ function setup() {
     background(220);
   noLoop(); // Stops continuous drawing
 }
+function draw() {
+
+    
+}
