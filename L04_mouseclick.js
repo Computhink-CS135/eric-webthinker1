@@ -20,7 +20,7 @@ function setup() {
 //     ellipse(200, 200, 80, 80)
 // }
 function mouseMoved() {
-    circle(circlesize)
+    circle(100, 100, circlesize);
 
     // let randomcolour = color(random(255), random(255), random(255));
     // fill(randomcolour)
