@@ -21,7 +21,7 @@ function setup() {
 // }
 function mouseMoved() {
     let circlesize = 0
-    let
+    let perivousmouseX
     circle(mouseX, mouseY, circlesize);
     circlesize++
 
