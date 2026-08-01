@@ -20,7 +20,7 @@ function setup() {
 // }
 function mouseMoved() {
     let circlesize = 0
-    let perivousmouseX = 50
+    // let perivousmouseX = 300
     if (perivousmouseX < mouseX) {
         circlesize++
     } else {
