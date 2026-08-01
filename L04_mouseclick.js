@@ -41,5 +41,7 @@ function setup() {
 // }
 
 function mouseDragged() {
+    let randomcolour = color(random(255), random(255), random(255));
+    fill(randomcolour)
     ellipse(mouseX, mouseY, 20, 20)
 }
