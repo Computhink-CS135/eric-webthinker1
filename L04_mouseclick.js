@@ -5,5 +5,6 @@ function setup() {
   noLoop(); // Stops continuous drawing
 }
 function draw() {
-    fill()
+    fill(#ff0000)
+    
 }
