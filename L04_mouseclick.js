@@ -7,7 +7,6 @@ function setup() {
 }
 function draw() {
     fill(shapecolour);
-    ellipse(mouseX, mouseY, 10, 10)
 }
 function mousePressed() {
     let randomcolour = color(random(255), random(255), random(255));
