@@ -27,7 +27,7 @@ function mouseMoved() {
         circlesize--
     }
     let perivousmouseX = mouseX
-    background()
+    background('white')
     ellipse(300, 200, circlesize, circlesize);
 
     // let randomcolour = color(random(255), random(255), random(255));
