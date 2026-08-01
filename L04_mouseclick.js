@@ -22,7 +22,9 @@ function setup() {
 function mouseMoved() {
     let circlesize = 0
     let perivousmouseX = mouseX
-    if (perivousmouseX < mouseX)
+    if (perivousmouseX < mouseX) {
+        
+    }
     circle(mouseX, mouseY, circlesize);
     circlesize++
 
