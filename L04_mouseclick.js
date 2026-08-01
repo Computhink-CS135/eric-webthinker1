@@ -8,16 +8,16 @@ function setup() {
 function draw() {
     fill(shapecolour);
 }
-function mousePressed() {
-    let randomcolour = color(random(255), random(255), random(255));
-    fill(randomcolour);
-    noStroke();
-    ellipse(200, 200, 80, 80)
-}
-function mouseReleased() {
-    fill("#ffffff")
-    ellipse(200, 200, 80, 80)
-}
+// function mousePressed() {
+//     let randomcolour = color(random(255), random(255), random(255));
+//     fill(randomcolour);
+//     noStroke();
+//     ellipse(200, 200, 80, 80)
+// }
+// function mouseReleased() {
+//     fill("#ffffff")
+//     ellipse(200, 200, 80, 80)
+// }
 function mouseMoved() {
     fill(randomcolour)
     ellipse(mouseX, mouseY, 10, 10)
