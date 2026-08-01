@@ -19,5 +19,5 @@ function mouseReleased() {
     ellipse(200, 200, 80, 80)
 }
 function mouseMoved() {
-    ellipse()
+    ellipse(mouseX, mouseY)
 }
