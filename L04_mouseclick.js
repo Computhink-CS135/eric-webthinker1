@@ -11,5 +11,5 @@ function draw() {
 }
 function mousePressed() {
     let randomcolour = color(random(255), random(255), random(255));
-    fill
+    fill(randomcolour)
 }
