@@ -7,11 +7,18 @@ function setup() {
 }
 function draw() {
     fill(shapecolour);
-}
-function mousePressed() {
+    function mousePressed() {
     let randomcolour = color(random(255), random(255), random(255));
     fill(randomcolour);
     nostroke();
     circleSize = random(100);
     ellipse(mouseX, mouseY, circleSize, circleSize)
 }
+}
+// function mousePressed() {
+//     let randomcolour = color(random(255), random(255), random(255));
+//     fill(randomcolour);
+//     nostroke();
+//     circleSize = random(100);
+//     ellipse(mouseX, mouseY, circleSize, circleSize)
+// }
