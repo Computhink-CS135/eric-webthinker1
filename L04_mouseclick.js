@@ -1,4 +1,5 @@
 let shapecolour = "#ff0000"
+let circlesize = 0
 
 function setup() {
     createCanvas(600, 400);
@@ -19,7 +20,6 @@ function setup() {
 //     ellipse(200, 200, 80, 80)
 // }
 function mouseMoved() {
-    let circlesize = 0
 
     // let randomcolour = color(random(255), random(255), random(255));
     // fill(randomcolour)
