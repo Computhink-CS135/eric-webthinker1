@@ -31,8 +31,8 @@ function setup() {
 //     } else {
 //         circlesize--
 //     }
-//     perivousmouseX = mouseX
-//     background('white')
+//     perivousmouseX = mouseX;
+//     background('white');
 //     ellipse(300, 200, circlesize, circlesize);
 
     // let randomcolour = color(random(255), random(255), random(255));
