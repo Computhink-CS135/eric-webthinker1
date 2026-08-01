@@ -19,6 +19,6 @@ function setup() {
 //     ellipse(200, 200, 80, 80)
 // }
 function mouseMoved() {
-    fill()
+    fill('green')
     ellipse(mouseX, mouseY, 10, 10)
 }
