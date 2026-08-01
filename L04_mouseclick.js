@@ -1,3 +1,4 @@
+let shapecolour = 
 
 function setup() {
     createCanvas(600, 400);
