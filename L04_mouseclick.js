@@ -2,7 +2,7 @@ let shapecolour = #ff0000
 
 function setup() {
     createCanvas(600, 400);
-    background(220);
+    background(225);
 //   noLoop(); // Stops continuous drawing
 }
 function draw() {
