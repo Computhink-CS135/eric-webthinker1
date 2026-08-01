@@ -24,18 +24,19 @@ function setup() {
 //     ellipse(200, 200, 80, 80)
 // }
 
-function mouseMoved() {
+// function mouseMoved() {
     
-    if (perivousmouseX < mouseX) {
-        circlesize++
-    } else {
-        circlesize--
-    }
-    perivousmouseX = mouseX
-    background('white')
-    ellipse(300, 200, circlesize, circlesize);
+//     if (perivousmouseX < mouseX) {
+//         circlesize++
+//     } else {
+//         circlesize--
+//     }
+//     perivousmouseX = mouseX
+//     background('white')
+//     ellipse(300, 200, circlesize, circlesize);
 
     // let randomcolour = color(random(255), random(255), random(255));
     // fill(randomcolour)
     // ellipse(mouseX, mouseY, 10, 10)
-}
+// }
+
