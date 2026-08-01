@@ -24,7 +24,7 @@ function mouseMoved() {
     let perivousmouseX = mouseX
     if (perivousmouseX < mouseX) {
         circlesize--
-    }
+    } else {circlesize+}
     circlesize++
 
     // let randomcolour = color(random(255), random(255), random(255));
