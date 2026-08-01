@@ -5,9 +5,9 @@ function setup() {
     background(225);
 //   noLoop(); // Stops continuous drawing
 }
-function draw() {
-    fill(shapecolour);
-}
+// function draw() {
+//     fill(shapecolour);
+// }
 // function mousePressed() {
 //     let randomcolour = color(random(255), random(255), random(255));
 //     fill(randomcolour);
