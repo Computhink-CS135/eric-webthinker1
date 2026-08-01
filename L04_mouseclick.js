@@ -1,6 +1,6 @@
 let shapecolour = "#ff0000"
-let circlesize = 0let perivousmouseX = 50
-
+let perivousmouseX = 50
+let circlesize = 0
 
 function setup() {
     createCanvas(600, 400);
