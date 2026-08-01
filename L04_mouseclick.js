@@ -44,5 +44,5 @@ function mouseDragged() {
     let randomsize = random(50);
     let randomcolour = color(random(255), random(255), random(255));
     fill(randomcolour)
-    ellipse(mouseX, mouseY, 20, 20)
+    ellipse(mouseX, mouseY, random, 20)
 }
