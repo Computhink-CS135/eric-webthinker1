@@ -19,8 +19,11 @@ function setup() {
 //     fill("#ffffff")
 //     ellipse(200, 200, 80, 80)
 // }
+
+let circlesize = 0
+
 function mouseMoved() {
-    let circlesize = 0
+    
     if (perivousmouseX < mouseX) {
         circlesize++
     } else {
