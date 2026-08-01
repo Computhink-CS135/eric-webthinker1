@@ -18,7 +18,7 @@ function setup() {
 //     fill("#ffffff")
 //     ellipse(200, 200, 80, 80)
 // }
-function mouse() {
+function mouseMoved() {
     let randomcolour = color(random(255), random(255), random(255));
     fill(randomcolour)
     ellipse(mouseX, mouseY, 10, 10)
