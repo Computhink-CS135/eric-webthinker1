@@ -19,6 +19,6 @@ function mouseReleased() {
     ellipse(200, 200, 80, 80)
 }
 function mouseMoved() {
-    fill(randomcolour)
+    fill()
     ellipse(mouseX, mouseY, 10, 10)
 }
