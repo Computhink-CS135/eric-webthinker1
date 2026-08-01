@@ -47,5 +47,4 @@ function mouseDragged() {
         fill(randomcolour)
         circle(mouseX, mouseY, randomsize)
     }
-    
 }
