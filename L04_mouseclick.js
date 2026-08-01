@@ -23,7 +23,7 @@ function mouseMoved() {
     let circlesize = 0
     let perivousmouseX = mouseX
     if (perivousmouseX < mouseX) {
-        
+        circlesize--
     }
     circle(mouseX, mouseY, circlesize);
     circlesize++
