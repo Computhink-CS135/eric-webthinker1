@@ -5,6 +5,6 @@ function setup() {
   noLoop(); // Stops continuous drawing
 }
 function draw() {
-    fill(#ff0000)
-    ellipse()
+    fill(#ff0000);
+    ellipse(200, 200);
 }
