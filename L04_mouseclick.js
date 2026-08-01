@@ -9,7 +9,7 @@ function draw() {
     fill(shapecolour);
 }
 function mousePressed() {
-    let randomcolour = color(random(255), random(255), random(255));
+    let randomcolour = color(random(0, 255), random(255), random(255));
     fill(randomcolour);
     nostroke();
     circleSize = random(100);
