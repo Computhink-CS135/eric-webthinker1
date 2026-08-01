@@ -1,5 +1,5 @@
 let shapecolour = "#ff0000"
-let perivousmouseX = 300
+let perivousmouseX = 
 
 function setup() {
     createCanvas(600, 400);
