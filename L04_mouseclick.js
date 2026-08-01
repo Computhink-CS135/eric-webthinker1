@@ -15,5 +15,4 @@ function mousePressed() {
 }
 function mouseReleased() {
     fill("#ffffff")
-    ellipse(200, 200, 80, 80)
 }
