@@ -20,6 +20,8 @@ function setup() {
 //     ellipse(200, 200, 80, 80)
 // }
 function mouseMoved() {
+    let circlesize = 0
+    let
     circle(mouseX, mouseY, circlesize);
     circlesize++
 
