@@ -1,6 +1,6 @@
 
 let rectsize = 50
-
+let position
 
 function setup() {
     createCanvas(600, 400);
