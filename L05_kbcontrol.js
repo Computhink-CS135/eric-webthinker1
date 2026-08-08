@@ -20,7 +20,6 @@ function keyPressed() {
     let numCircle = (5, 20)
     for (let i = 0; i < numCircle; i++) {
         circle(size, positionX, positionY);
-        
     }
 
 }
