@@ -26,10 +26,10 @@ function keyPressed() {
 
     console.log("KeyCode:", key);
 
-    if (KeyCode === 0) {
+    if (keyCode === 0) {
         circle(300, 200, 200)
     }
-    if (KeyCode === 's') {
+    if (keyCode === 's') {
         quad(400,100, 400,300, 200,300, 200,100) 
     }
 }
