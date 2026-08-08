@@ -28,5 +28,6 @@ function keyPressed() {
 function keyReleased() {
     // rectsize = 50
 
-    
+    createCanvas(600, 400);
+    background(225);
 }
