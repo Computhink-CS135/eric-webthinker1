@@ -20,6 +20,7 @@ function keyPressed() {
     let numCircle = random(5, 20)
     let randomColour = color(random(255), random(255), random(255));
     for (let i = 0; i < numCircle; i++) {
+        fill(randomColour)
         ellipse(positionX, positionY, size, size);
     }
 
