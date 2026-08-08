@@ -27,7 +27,7 @@ function keyPressed() {
     if (key === 'c') {
         circle(100, 300, 200)
     }
-    else {
+    if () {
         rect(450,100, 450,300, 150,300, 150,100) 
     }
 }
