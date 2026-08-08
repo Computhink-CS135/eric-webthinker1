@@ -13,8 +13,8 @@ function draw() {
 }
 
 function keyPressed() {
-    rectsize = 100
+    rectsize = 220
 }
 function keyReleased() {
-    rectsize = 50
+    rectsize = 0
 }
