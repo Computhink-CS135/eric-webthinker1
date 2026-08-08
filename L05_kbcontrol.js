@@ -13,6 +13,11 @@ function draw() {
 
 function keyPressed() {
     // rectsize = 100
+
+    let positionX = random(600)
+    let positionY = random(400)
+    
+
 }
 function keyReleased() {
     // rectsize = 50
