@@ -25,7 +25,7 @@ function keyPressed() {
     // }
 
     if (key === 'c') {
-        
+        circle(100)
     }
 }
 function keyReleased() {
