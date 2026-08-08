@@ -7,5 +7,5 @@ function setup() {
 
 function draw() {
     background(220)
-    rect(width / 2 - rectsize / 2, h)
+    rect(width / 2 - rectsize / 2, height / 2 - rectsize / 2)
 }
