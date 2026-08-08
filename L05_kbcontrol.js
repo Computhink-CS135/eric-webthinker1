@@ -24,6 +24,9 @@ function keyPressed() {
     //     ellipse(positionX, positionY, size, size);
     // }
 
+    if (key === 'c') {
+        
+    }
 }
 function keyReleased() {
     // rectsize = 50
