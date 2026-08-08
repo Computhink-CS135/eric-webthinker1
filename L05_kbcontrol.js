@@ -25,6 +25,7 @@ function keyPressed() {
     // }
 
     console.log("Key:", key);
+    
     if (KeyCode === 0) {
         circle(300, 200, 200)
     }
