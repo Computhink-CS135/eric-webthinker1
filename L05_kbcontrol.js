@@ -19,7 +19,7 @@ function keyPressed() {
     let size = random(10, 25)
     let numCircle = random(5, 20)
     for (let i = 0; i < numCircle; i++) {
-        ellipse(size, positionY, positionX, size);
+        ellipse(positionX, positionY, size, size);
     }
 
 }
