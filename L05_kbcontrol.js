@@ -29,7 +29,7 @@ function keyPressed() {
     if (KeyCode === 0) {
         circle(300, 200, 200)
     }
-    if (KeyCode === 's') {
+    if (KeyCode === 1) {
         quad(400,100, 400,300, 200,300, 200,100) 
     }
 }
