@@ -27,7 +27,7 @@ function keyPressed() {
     if (keyCode === '000') {
         circle(300, 200, 200)
     }
-    if (keyCode === '') {
+    if (keyCode === 61) {
         quad(400,100, 400,300, 200,300, 200,100) 
     }
 }
