@@ -28,7 +28,7 @@ function keyPressed() {
         circle(100, 300, 200)
     }
     else {
-        rect(150,100, )
+        rect(150,100, 450, 100, )
     }
 }
 function keyReleased() {
