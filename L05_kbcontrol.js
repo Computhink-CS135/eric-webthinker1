@@ -18,6 +18,7 @@ function keyPressed() {
     let positionY = random(0, 400)
     let size = random(10, 25)
     let numCircle = random(5, 20)
+    randomColour
     for (let i = 0; i < numCircle; i++) {
         ellipse(positionX, positionY, size, size);
     }
