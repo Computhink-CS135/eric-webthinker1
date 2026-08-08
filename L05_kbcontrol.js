@@ -16,7 +16,7 @@ function keyPressed() {
 
     let positionX = random(600)
     let positionY = random(400)
-    size
+    let size = (5, 20)
 
 }
 function keyReleased() {
