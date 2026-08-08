@@ -28,7 +28,7 @@ function keyPressed() {
         circle(100, 300, 200)
     }
     if (key === 's') {
-        rect(450,100, 450,300, 150,300, 150,100) 
+        quad(450,100, 450,300, 150,300, 150,100) 
     }
 }
 function keyReleased() {
