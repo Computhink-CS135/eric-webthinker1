@@ -16,6 +16,7 @@ function keyPressed() {
 
     let numCircle = random(5, 20)
     for (let i = 0; i < numCircle; i++) {
+        let randomColour = color(random(255), random(255), random(255));
         let positionX = random(0, 600)
         let positionY = random(0, 400)
         let size = random(10, 25)
