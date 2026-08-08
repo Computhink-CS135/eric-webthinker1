@@ -16,7 +16,7 @@ function keyPressed() {
 
     let positionX = random(600)
     let positionY = random(400)
-    let size = (50, 100)
+    let size = (10, 25)
     let numCircle = (5, 20)
     for (let i = 0; i < numCircle; i++) {
         circle(size, positionX, positionY);
