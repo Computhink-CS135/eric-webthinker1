@@ -14,8 +14,8 @@ function draw() {
 function keyPressed() {
     // rectsize = 100
 
-    let positionX = random(600)
-    let positionY = random(400)
+    let positionX = random(0, 400)
+    let positionY = random(0, 400)
     let size = random(10, 25)
     let numCircle = random(5, 20)
     for (let i = 0; i < numCircle; i++) {
