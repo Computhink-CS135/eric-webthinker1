@@ -27,7 +27,9 @@ function keyPressed() {
     if (key === 'c') {
         circle(100, 300, 200)
     }
-    
+    else {
+        
+    }
 }
 function keyReleased() {
     // rectsize = 50
