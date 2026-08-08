@@ -18,6 +18,7 @@ function keyPressed() {
     let positionY = random(400)
     let size = (50, 100)
     let numCircle = (5, 20)
+    for (let i = 0; i < numCircle; i++)
 
 }
 function keyReleased() {
