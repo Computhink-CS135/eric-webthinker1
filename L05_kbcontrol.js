@@ -19,7 +19,8 @@ function keyPressed() {
     let size = (50, 100)
     let numCircle = (5, 20)
     for (let i = 0; i < numCircle; i++) {
-        circle(size, )
+        circle(size, positionX, positionY);
+        
     }
 
 }
