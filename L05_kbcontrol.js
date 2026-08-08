@@ -1,6 +1,6 @@
 
 let rectsize = 50
-let position = random()
+let positionX = random(600)
 
 function setup() {
     createCanvas(600, 400);
