@@ -25,7 +25,7 @@ function keyPressed() {
     // }
 
     if (key === 'c') {
-        circle(300, 200, 200)
+        circle(300, 200, 100)
     }
     if (key === 's') {
         quad(400,100, 400,300, 200,300, 200,100) 
