@@ -24,10 +24,10 @@ function keyPressed() {
     //     ellipse(positionX, positionY, size, size);
     // }
 
-    if (keyCode === '000') {
+    if (keyCode === '0') {
         circle(300, 200, 200)
     }
-    if (keyCode === 61) {
+    if (keyCode === s) {
         quad(400,100, 400,300, 200,300, 200,100) 
     }
 }
