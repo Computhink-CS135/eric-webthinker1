@@ -24,7 +24,7 @@ function keyPressed() {
     //     ellipse(positionX, positionY, size, size);
     // }
 
-    console.log("Key:")
+    console.log("Key:", key);
     if (KeyCode === 0) {
         circle(300, 200, 200)
     }
