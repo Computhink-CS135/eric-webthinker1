@@ -32,6 +32,7 @@ function draw() {
         direction = "up"
     } else if (keyCode == DOWN_ARROW) {
         y -= 1;
+        direction = "down"
     }
     // circle(width / 2 + x, height / 2, 50);
     triangle(200, 400 + y, 300, 250 + y, 400, 400 + y);
