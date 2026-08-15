@@ -26,17 +26,17 @@ function draw() {
 
 
     // if(keyCode == RIGHT_ARROW) {
-    //     x += 1
+    //     x += 1;
     // } else if (keyCode == LEFT_ARROW) {
-    //     x -= 1
+    //     x -= 1;
     // }
-    // circle(width / 2 + x, height / 2, 100)
+    // circle(width / 2 + x, height / 2, 100);
 }
 
 function keyPressed() {
-    // rectsize = 100
+    // rectsize = 100;
 
-    // let numCircle = random(5, 20)
+    // let numCircle = random(5, 20);
     // for (let i = 0; i < numCircle; i++) {
     //     let randomColour = color(random(255), random(255), random(255));
     //     let positionX = random(0, 600);
