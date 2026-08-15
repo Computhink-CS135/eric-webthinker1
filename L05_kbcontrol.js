@@ -65,15 +65,15 @@ function keyPressed() {
     //     circle(300, 200, 200)
     // } else if (key === 'b') {
     //     fill(0, 0, 255);
-    //     circle(300, 200, 200)
+    //     circle(300, 200, 200);
     // } else {
-    //     fill(255, 255, 0)
-    //     circle(300, 200, 200)
+    //     fill(255, 255, 0);
+    //     circle(300, 200, 200);
     // }
 
 }
 function keyReleased() {
-    // rectsize = 50
+    // rectsize = 50;
 
     // createCanvas(600, 400);
     // background(225);
@@ -81,17 +81,17 @@ function keyReleased() {
 
 function mouseMoved() {
     // if (mouseX < 100) {
-    //     fill(255, 0, 0)
+    //     fill(255, 0, 0);
     // } else if (mouseX >= 100 && mouseX < 200) {
-    //     fill(255, 255, 0)
+    //     fill(255, 255, 0);
     // } else if (mouseX >= 200 && mouseX < 300) {
-    //     fill(0, 255, 0)
+    //     fill(0, 255, 0);
     // } else if (mouseX >= 300 && mouseX < 400) {
-    //     fill(0, 0, 255)
+    //     fill(0, 0, 255);
     // } else if (mouseX >= 400 && mouseX < 500) {
-    //     fill(255, 0, 255)
+    //     fill(255, 0, 255);
     // } else if (mouseX >= 500 && mouseX < 600) {
-    //     fill(255, 0, 220)
+    //     fill(255, 0, 220);
     // }
-    // circle(300, 200, 200)
+    // circle(300, 200, 200);
 }
