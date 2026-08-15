@@ -12,9 +12,9 @@ function draw() {
     // rect(width / 2 - rectsize / 2, height / 2 - rectsize / 2, rectsize, rectsize);
 
     if (keyIsDown(RIGHT_ARROW)) {
-        x += 1
+        x += 10
     } else if (keyIsDown(LEFT_ARROW)) {
-        x -= 1
+        x -= 10
     }
     circle(width / 2 + x, height / 2, 100)
 
