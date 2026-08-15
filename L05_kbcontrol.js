@@ -25,12 +25,12 @@ function keyPressed() {
     // }
 
 
-    if (keyCode === 49) {
-        circle(300, 200, 200)
-    }
-    if (keyCode === 48) {
-        quad(400,100, 400,300, 200,300, 200,100) 
-    }
+    // if (keyCode === 49) {
+    //     circle(300, 200, 200)
+    // }
+    // if (keyCode === 48) {
+    //     quad(400,100, 400,300, 200,300, 200,100) 
+    // }
 }
 function keyReleased() {
     // rectsize = 50
