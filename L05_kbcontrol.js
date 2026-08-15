@@ -16,7 +16,7 @@ function draw() {
     } else if (keyIsDown(LEFT_ARROW)) {
         x -= 5;
     }
-    triangle(200, 400, 300, 100, 400, 400);
+    triangle(200, 400, 300, 350, 400, 400);
 
     if (x < 50) {
         x = 50;
