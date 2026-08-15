@@ -18,6 +18,8 @@ function draw() {
     }
     circle(width / 2 + x, height / 2, 100)
 
+    if (x < 50) 
+
 
     // if(keyCode == RIGHT_ARROW) {
     //     x += 1
