@@ -60,7 +60,7 @@ function keyReleased() {
 function mouseMoved() {
     if (mouseX < 100) {
         fill(255, 0, 0)
-    } else if (100 > mouseX < 100) {
+    } else if (100 < mouseX < 100) {
         fill(255, 0, 0)
     }
 }
