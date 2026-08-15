@@ -36,7 +36,7 @@ function keyPressed() {
         fill(255, 0, 0)
     }
     if (key === 'w') {
-        fill()
+        fill(255, 255, 255)
     }
 
 }
