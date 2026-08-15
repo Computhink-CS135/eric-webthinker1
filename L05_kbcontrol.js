@@ -11,12 +11,12 @@ function setup() {
 function draw() {
     // rect(width / 2 - rectsize / 2, height / 2 - rectsize / 2, rectsize, rectsize);
 
-    if (keyIsDown(RIGHT_ARROW)) {
-        x += 5;
-    } else if (keyIsDown(LEFT_ARROW)) {
-        x -= 5;
-    }
-    triangle(200, 400, 300, 250, 400, 400);
+    // if (keyIsDown(RIGHT_ARROW)) {
+    //     x += 5;
+    // } else if (keyIsDown(LEFT_ARROW)) {
+    //     x -= 5;
+    // }
+    // triangle(200, 400, 300, 250, 400, 400);
 
     if (x < 50) {
         x = 50;
@@ -25,12 +25,12 @@ function draw() {
     }
 
 
-    // if(keyCode == RIGHT_ARROW) {
-    //     x += 1;
-    // } else if (keyCode == LEFT_ARROW) {
-    //     x -= 1;
-    // }
-    // circle(width / 2 + x, height / 2, 50);
+    if(keyCode == RIGHT_ARROW) {
+        x += 1;
+    } else if (keyCode == LEFT_ARROW) {
+        x -= 1;
+    }
+    circle(width / 2 + x, height / 2, 50);
 }
 
 function keyPressed() {
