@@ -33,8 +33,10 @@ function keyPressed() {
     // }
 
     if (key === 'r') {
-        Fill(255, 0, 0)
+        fill(255, 0, 0)
     }
+    if (key === 'w')
+
 }
 function keyReleased() {
     // rectsize = 50
