@@ -13,7 +13,7 @@ function draw() {
 
     if (keyIsDown(RIGHT_ARROW)) {
         x += 1
-    } else if (keyIsDown(RIGHT_ARROW))
+    } else if (keyIsDown(LEFT_ARROW))
     circle(width / 2 + x, height / 2, 100)
 
     // if(keyCode == RIGHT_ARROW) {
