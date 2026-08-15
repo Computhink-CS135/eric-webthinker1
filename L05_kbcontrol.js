@@ -16,7 +16,7 @@ function draw() {
     } else if (keyIsDown(LEFT_ARROW)) {
         x -= 5;
     }
-    circle(x, height / 2, 100);
+    tri(x, height / 2, 100);
 
     if (x < 50) {
         x = 50;
