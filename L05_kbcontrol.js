@@ -27,12 +27,12 @@ function draw() {
 
 
     if(keyCode == UP_ARROW) {
-        x += 1;
+        y += 1;
     } else if (keyCode == DOWN_ARROW) {
-        x -= 1;
+        y -= 1;
     }
     // circle(width / 2 + x, height / 2, 50);
-    triangle(200, 400 + x, 300, 250 + x, 400, 400 + x);
+    triangle(200, 400 + y, 300, 250 + x, 400, 400 + x);
 }
 
 function keyPressed() {
