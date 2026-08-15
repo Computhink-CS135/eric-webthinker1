@@ -35,10 +35,10 @@ function keyPressed() {
     if (key === 'r') {
         fill(255, 0, 0);
         circle(300, 200, 200);
-    } if (key === 'w') {
+    } else if (key === 'w') {
         fill(255, 255, 255);
         circle(300, 200, 200);
-    } if (key === 'g') {
+    } else if (key === 'g') {
         fill(0, 255, 0);
         circle(300, 200, 200)
     } else {
