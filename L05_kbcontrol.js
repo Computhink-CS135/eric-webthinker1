@@ -66,7 +66,6 @@ function mouseMoved() {
         fill(255, 255, 0)
     } else if (300 < mouseX <= 400) {
         fill(0, 0, 255)
-    circle(300, 200, 200)
     }
     circle(300, 200, 200)
 }
