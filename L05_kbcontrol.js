@@ -40,8 +40,9 @@ function keyPressed() {
         fill(255, 255, 255)
         circle(300, 200, 200)
     }
-    if (key === 'g')
-        fill
+    if (key === 'g') {
+        fill 
+    }
 
 }
 function keyReleased() {
