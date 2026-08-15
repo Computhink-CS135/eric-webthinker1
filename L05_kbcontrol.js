@@ -29,6 +29,7 @@ function draw() {
 
     if(keyCode == UP_ARROW) {
         y += 1;
+        direction = "up"
     } else if (keyCode == DOWN_ARROW) {
         y -= 1;
     }
