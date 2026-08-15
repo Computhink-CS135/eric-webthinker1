@@ -44,6 +44,9 @@ function keyPressed() {
         fill(0, 255, 0);
         circle(300, 200, 200)
     }
+    else {
+        
+    }
 
 }
 function keyReleased() {
