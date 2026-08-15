@@ -31,7 +31,7 @@ function draw() {
         x -= 1;
     }
     // circle(width / 2 + x, height / 2, 50);
-    triangle(200, 400 * x, 300, 250 * x, 400, 400 * x);
+    triangle(200, 400 + x, 300, 250 + x, 400, 400 + x);
 }
 
 function keyPressed() {
