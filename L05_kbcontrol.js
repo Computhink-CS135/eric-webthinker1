@@ -35,19 +35,14 @@ function keyPressed() {
     if (key === 'r') {
         fill(255, 0, 0);
         circle(300, 200, 200);
-    }
-    if (key === 'w') {
+    } if (key === 'w') {
         fill(255, 255, 255);
         circle(300, 200, 200);
-    }
-    if (key === 'g') {
+    } if (key === 'g') {
         fill(0, 255, 0);
         circle(300, 200, 200)
     }
-    else {
-        fill(255, 255, 0)
-        circle(300, 200, 200)
-    }
+
 
 }
 function keyReleased() {
