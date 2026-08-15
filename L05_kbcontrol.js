@@ -21,7 +21,7 @@ function draw() {
     if (x < 25) {
         x = 25;
     } if (x > width - 25) {
-        x = width - 50;
+        x = width - 25;
     }
 
 
@@ -30,7 +30,7 @@ function draw() {
     // } else if (keyCode == LEFT_ARROW) {
     //     x -= 1;
     // }
-    // circle(width / 2 + x, height / 2, 100);
+    // circle(width / 2 + x, height / 2, 50);
 }
 
 function keyPressed() {
