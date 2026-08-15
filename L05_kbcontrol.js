@@ -65,6 +65,6 @@ function mouseMoved() {
     } else if (200 < mouseX < 300) {
         fill(255, 255, 0)
     } else {
-        fill(0, 255, 0)
+        fill(0, 0, 255)
     }
 }
