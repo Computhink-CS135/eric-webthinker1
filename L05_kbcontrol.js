@@ -33,7 +33,7 @@ function keyPressed() {
     // }
 
     if (key === 'r') {
-        FileList(255, 0 , 0)
+        Fill(255, 0, 0)
     }
 }
 function keyReleased() {
