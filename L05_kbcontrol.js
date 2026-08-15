@@ -20,8 +20,8 @@ function draw() {
 
     if(keyCode == RIGHT_ARROW) {
         x += 1
-    } else if (keyCode == RIGHT_ARROW) {
-        x += 1
+    } else if (keyCode == LEFT_ARROW) {
+        x -= 1
     }
     circle(width / 2 + x, height / 2, 100)
 }
