@@ -26,9 +26,9 @@ function draw() {
     }
 
 
-    if(keyCode == RIGHT_ARROW) {
+    if(keyCode == UP_ARROW) {
         x += 1;
-    } else if (keyCode == LEFT_ARROW) {
+    } else if (keyCode == DOWN_ARROW) {
         x -= 1;
     }
     // circle(width / 2 + x, height / 2, 50);
