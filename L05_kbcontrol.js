@@ -45,7 +45,7 @@ function keyPressed() {
         circle(300, 200, 200)
     }
     else {
-        
+        fill()
     }
 
 }
