@@ -44,6 +44,9 @@ function keyPressed() {
     } else if (key === 'b') {
         fill(0, 0, 255);
         circle(300, 200, 200)
+    } else {
+        fill(255, 255, 0)
+        circle(300, 200, 200)
     }
 
 }
