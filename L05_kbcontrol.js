@@ -17,6 +17,7 @@ function draw() {
     //     x -= 5;
     // }
     // triangle(200, 400, 300, 250, 400, 400);
+    // circle(width / 2 + x, height / 2, 50);
 
     if (x < 50) {
         x = 50;
