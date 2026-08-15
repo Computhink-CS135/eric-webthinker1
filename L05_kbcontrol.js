@@ -20,6 +20,8 @@ function draw() {
 
     if (x < 50) {
         x = 25;
+    } if (x > width - 25) {
+        
     }
 
 
