@@ -16,7 +16,6 @@ function draw() {
     // } else if (keyIsDown(LEFT_ARROW)) {
     //     x -= 5;
     // }
-    // triangle(200, 400, 300, 250, 400, 400);
     // circle(width / 2 + x, height / 2, 50);
 
     if (x < 50) {
