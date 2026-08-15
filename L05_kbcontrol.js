@@ -35,7 +35,9 @@ function draw() {
         direction = "down"
     }
     // circle(width / 2 + x, height / 2, 50);
-    if (direction == "up")
+    if (direction == "up") {
+        triangle(100, y + 50, 200, y - 50, 300, y + 50);
+    }
     triangle(100, y + 50, 200, y - 50, 300, y + 50);
 }
 
