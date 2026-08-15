@@ -18,7 +18,9 @@ function draw() {
     }
     circle(width / 2 + x, height / 2, 100)
 
-    if (x < 50) 
+    if (x < 50) {
+        x = 25;
+    }
 
 
     // if(keyCode == RIGHT_ARROW) {
