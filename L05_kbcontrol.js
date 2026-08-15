@@ -41,7 +41,8 @@ function keyPressed() {
         circle(300, 200, 200);
     }
     if (key === 'g') {
-        fill(0, 255, 0)
+        fill(0, 255, 0);
+        circle(300, 200, 200)
     }
 
 }
