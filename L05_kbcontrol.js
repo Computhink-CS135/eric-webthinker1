@@ -35,7 +35,7 @@ function draw() {
         direction = "down"
     }
     // circle(width / 2 + x, height / 2, 50);
-    triangle(75, y - 25, 300, 250, 400, 400);
+    triangle(75, y - 25, 100, y + 25, 400, 400);
 }
 
 function keyPressed() {
