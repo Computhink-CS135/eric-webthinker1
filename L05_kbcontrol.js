@@ -32,7 +32,7 @@ function draw() {
         x -= 1;
     }
     // circle(width / 2 + x, height / 2, 50);
-    triangle(200, 400 + x, 300, 250, 400, 400);
+    triangle(200, 400 + x, 300, 250 + x, 400, 400);
 }
 
 function keyPressed() {
