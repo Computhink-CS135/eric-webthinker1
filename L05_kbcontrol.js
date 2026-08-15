@@ -20,7 +20,7 @@ function draw() {
 
     if (x < 50) {
         x = 50;
-    } if (x > width - 50) {
+    } if (x > width - 50frfr) {
         x = width - 50;
     }
 
