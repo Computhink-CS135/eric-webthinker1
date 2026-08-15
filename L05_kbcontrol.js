@@ -32,29 +32,29 @@ function keyPressed() {
     //     quad(400,100, 400,300, 200,300, 200,100) 
     // }
 
-    if (key === 'r') {
-        fill(255, 0, 0);
-        circle(300, 200, 200);
-    } else if (key === 'w') {
-        fill(255, 255, 255);
-        circle(300, 200, 200);
-    } else if (key === 'g') {
-        fill(0, 255, 0);
-        circle(300, 200, 200)
-    } else if (key === 'b') {
-        fill(0, 0, 255);
-        circle(300, 200, 200)
-    } else {
-        fill(255, 255, 0)
-        circle(300, 200, 200)
-    }
+    // if (key === 'r') {
+    //     fill(255, 0, 0);
+    //     circle(300, 200, 200);
+    // } else if (key === 'w') {
+    //     fill(255, 255, 255);
+    //     circle(300, 200, 200);
+    // } else if (key === 'g') {
+    //     fill(0, 255, 0);
+    //     circle(300, 200, 200)
+    // } else if (key === 'b') {
+    //     fill(0, 0, 255);
+    //     circle(300, 200, 200)
+    // } else {
+    //     fill(255, 255, 0)
+    //     circle(300, 200, 200)
+    // }
 
 }
 function keyReleased() {
     // rectsize = 50
 
-    createCanvas(600, 400);
-    background(225);
+    // createCanvas(600, 400);
+    // background(225);
 }
 
 function mouseMoved() {
