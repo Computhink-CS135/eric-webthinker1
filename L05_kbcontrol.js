@@ -31,6 +31,10 @@ function keyPressed() {
     // if (keyCode === 48) {
     //     quad(400,100, 400,300, 200,300, 200,100) 
     // }
+
+    if (key === 'r') {
+        
+    }
 }
 function keyReleased() {
     // rectsize = 50
