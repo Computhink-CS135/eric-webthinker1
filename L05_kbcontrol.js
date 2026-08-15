@@ -39,19 +39,19 @@ function keyPressed() {
     // let numCircle = random(5, 20)
     // for (let i = 0; i < numCircle; i++) {
     //     let randomColour = color(random(255), random(255), random(255));
-    //     let positionX = random(0, 600)
-    //     let positionY = random(0, 400)
-    //     let size = random(10, 25)
-    //     fill(randomColour)
+    //     let positionX = random(0, 600);
+    //     let positionY = random(0, 400);
+    //     let size = random(10, 25);
+    //     fill(randomColour);
     //     ellipse(positionX, positionY, size, size);
     // }
 
 
     // if (keyCode === 49) {
-    //     circle(300, 200, 200)
+    //     circle(300, 200, 200);
     // }
     // if (keyCode === 48) {
-    //     quad(400,100, 400,300, 200,300, 200,100) 
+    //     quad(400,100, 400,300, 200,300, 200,100) ;
     // }
 
     // if (key === 'r') {
