@@ -55,4 +55,5 @@ function keyReleased() {
 
     createCanvas(600, 400);
     background(225);
+    circle()
 }
