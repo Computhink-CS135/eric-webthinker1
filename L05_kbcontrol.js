@@ -19,9 +19,9 @@ function draw() {
     circle(width / 2 + x, height / 2, 100)
 
     if (x < 50) {
-        x = 25;
-    } if (x > width - 25) {
-        x = width - 25;
+        x = 50;
+    } if (x > width - 50) {
+        x = width - 50;
     }
 
 
