@@ -11,7 +11,7 @@ function draw() {
     // rect(width / 2 - rectsize / 2, height / 2 - rectsize / 2, rectsize, rectsize);
 
     if(keyIsDown(RIGHT_ARROW)) {
-        x 
+        x += 1
     }
 }
 
