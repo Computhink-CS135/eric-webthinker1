@@ -59,6 +59,6 @@ function keyReleased() {
 
 function mouseMoved() {
     if (mouseX < 100) {
-        
+        fill(255.)
     }
 }
