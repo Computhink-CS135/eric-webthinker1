@@ -30,7 +30,8 @@ function draw() {
     } else if (keyCode == LEFT_ARROW) {
         x -= 1;
     }
-    circle(width / 2 + x, height / 2, 50);
+    // circle(width / 2 + x, height / 2, 50);
+    triangle(200, 400, 300, 250, 400, 400);
 }
 
 function keyPressed() {
