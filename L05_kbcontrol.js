@@ -11,15 +11,15 @@ function setup() {
 function draw() {
     // rect(width / 2 - rectsize / 2, height / 2 - rectsize / 2, rectsize, rectsize);
 
-    if(keyIsDown(RIGHT_ARROW)) {
-        x += 1
-    }
-    circle(width / 2 + x, height / 2, 100)
-
-    // if(keyCode == RIGHT_ARROW) {
+    // if(keyIsDown(RIGHT_ARROW)) {
     //     x += 1
     // }
     // circle(width / 2 + x, height / 2, 100)
+
+    if(keyCode == RIGHT_ARROW) {
+        x += 1
+    }
+    circle(width / 2 + x, height / 2, 100)
 }
 
 function keyPressed() {
