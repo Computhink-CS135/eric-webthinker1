@@ -35,7 +35,9 @@ function keyPressed() {
     if (key === 'r') {
         fill(255, 0, 0)
     }
-    if (key === 'w')
+    if (key === 'w') {
+        fill()
+    }
 
 }
 function keyReleased() {
