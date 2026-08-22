@@ -31,9 +31,8 @@ function draw() {
     if (x === 400 || x === 0 || y === 400 || y === 0) {
         soundEffect.play();
         background(255, 0, 0);
-    } else {
-        background("lightblue");
     }
+    background("lightblue");
     createCanvas(400, 400);
     image(staticImage, x, y, 110, 133);
     x = constrain(x, 0, width - 100);
