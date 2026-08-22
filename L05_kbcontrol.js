@@ -38,6 +38,7 @@ function draw() {
         triangle(100, y + 50, 200, y - 50, 300, y + 50);
     } if (direction == "down")
     triangle(100, y - 50, 200, y + 50, 300, y - 50);
+    y = constrain
 }
 
 function keyPressed() {
