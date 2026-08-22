@@ -29,7 +29,8 @@ function draw() {
     // rect(x, y, 50, 50);
 
     if (x === 400 || x === 0 || y === 400 || y === 0) {
-        popSound;
+        popSound.play();
+        sou
         background(255, 0, 0);
     }
     createCanvas(400, 400);
