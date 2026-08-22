@@ -31,7 +31,8 @@ function draw() {
     createCanvas(400, 400);
     background("lightblue");
     image(staticImage, x, y, 110, 133);
-    Implementconstrain(x ,y)
+    constrain(x, 0, width - 110);
+    constrain(y, 0, height - 133);
 }
 function preload() {
     soundEffect = loadSound('assets/pop.mp3');
