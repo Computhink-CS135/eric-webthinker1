@@ -31,8 +31,8 @@ function draw() {
     if (x === 400 || x === 0 || y === 400 || y === 0) {
         // soundEffect.play();
         background(255, 0, 0);
-        if (soundEffect.isplaying()) {
-            soundEffect
+        if (!soundEffect.isplaying()) {
+            soundEffect.play();
         }
     }
     createCanvas(400, 400);
