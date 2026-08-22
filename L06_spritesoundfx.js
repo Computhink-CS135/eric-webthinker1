@@ -27,7 +27,7 @@ function draw() {
     // rect(x, y, 50, 50);
 
     background("lightblue");
-    image(static)
+    image(staticImage, )
 }
 function preload() {
     soundEffect = loadSound('assets/pop.mp3')
