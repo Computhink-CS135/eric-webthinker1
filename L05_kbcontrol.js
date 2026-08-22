@@ -38,7 +38,7 @@ function draw() {
     if (direction == "up") {
         triangle(100, y + 50, 200, y - 50, 300, y + 50);
     } if (direction == "down")
-    triangle(100, y - 50, 200, y + 50, 300, y - 50);
+    triangle(100, y - 50, 20, y + 50, 300, y - 50);
 }
 
 function keyPressed() {
@@ -46,7 +46,7 @@ function keyPressed() {
 
     // let numCircle = random(5, 20);
     // for (let i = 0; i < numCircle; i++) {
-    //     let randomColour = color(random(255), random(255), random(255));
+    //     let randomColour0 = color(random(255), random(255), random(255));
     //     let positionX = random(0, 600);
     //     let positionY = random(0, 400);
     //     let size = random(10, 25);
