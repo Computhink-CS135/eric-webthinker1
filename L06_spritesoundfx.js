@@ -32,7 +32,7 @@ function draw() {
         // soundEffect.play();
         background(255, 0, 0);
         if (soundEffect.isplaying()) {
-            
+            soundEffect
         }
     }
     createCanvas(400, 400);
