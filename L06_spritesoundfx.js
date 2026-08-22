@@ -13,6 +13,12 @@ function draw() {
         x -= 5;
     }
     circle(width / 2 + x, height / 2, 50);
+    if (keyIsDown(RIGHT_ARROW)) {
+        x += 5;
+    } else if (keyIsDown(LEFT_ARROW)) {
+        x -= 5;
+    }
+    circle(width / 2 + x, height / 2, 50);
     if (x < 25) {
         x = 25;
     } if (x > height - 25) {
