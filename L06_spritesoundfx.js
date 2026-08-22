@@ -20,8 +20,8 @@ function draw() {
     } else if (keyIsDown("SPACE_BAR")) {
         fill(255, 0, 255);
     }
-    x = constrain(x, 0, width + 100)
-    y = constrain(y, 0, height + 100)
+    x = constrain(x, 0, width - 100)
+    y = constrain(y, 0, height - 100)
     x = constrain(x, 0, width - 100)
     y = constrain(y, 0, height - 100)
 
