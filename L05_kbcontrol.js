@@ -35,10 +35,10 @@ function draw() {
     }
     // circle(width / 2 + x, height / 2, 50);
     if (direction == "up") {
-        triangle(100, y + 50, 200, y - 50, 300, y + 50);
+        triangle(100, y + 50, 200, y - 25, 300, y + 50);
     } if (direction == "down")
     triangle(100, y - 50, 200, y + 50, 300, y - 50);
-    y = constrain(y, 0, )
+    y = constrain(y, 0, height);
 }
 
 function keyPressed() {
