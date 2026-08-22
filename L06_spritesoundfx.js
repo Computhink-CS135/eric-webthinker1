@@ -10,15 +10,15 @@ function setup() {
 function draw() {
     rect(width / 2 - 50 / 2, height / 2 - 50 / 2, 50, 50);
     
-    // if (keyIsDown(RIGHT_ARROW)) {
-    //     x += 5;
-    // } else if (keyIsDown(LEFT_ARROW)) {
-    //     x -= 5;
-    // } else if (keyIsDown(DOWN_ARROW)) {
-    //     y += 5;
-    // } else if (keyIsDown(UP_ARROW)) {
-    //     y -= 5;
-    // }
+    if (keyIsDown(RIGHT_ARROW)) {
+        x += 5;
+    } else if (keyIsDown(LEFT_ARROW)) {
+        x -= 5;
+    } else if (keyIsDown(DOWN_ARROW)) {
+        y += 5;
+    } else if (keyIsDown(UP_ARROW)) {
+        y -= 5;
+    }
     x = constrain(x, 0, width)
     y = constrain(y, 0, height)
 
