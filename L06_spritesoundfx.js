@@ -1,6 +1,6 @@
 
 let x = width / 2;
-let y = 200;
+let y = height / 2;
 
 function setup() {
     createCanvas(400, 400);
