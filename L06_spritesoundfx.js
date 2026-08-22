@@ -1,4 +1,5 @@
 
+
 function setup() {
     createCanvas(400, 400);
     background(225);
@@ -15,9 +16,9 @@ function draw() {
     circle(width / 2 + x, height / 2, 50);
 
     if (keyIsDown(DOWN_ARROW)) {
-        x += 5;
+        y += 5;
     } else if (keyIsDown(UP_ARROW)) {
-        x -= 5;
+        y -= 5;
     }
     circle(width / 2 + x, height / 2, 50);
 
