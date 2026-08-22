@@ -27,3 +27,6 @@ function draw() {
     // rect(x, y, 50, 50);
 
 }
+function preload() {
+    
+}
