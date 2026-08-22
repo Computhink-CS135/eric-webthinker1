@@ -36,5 +36,7 @@ function preload() {
     staticImage = loadImage('assets/pico-a.png');
 }
 function keyPressed() {
-    
+    if (keyCode === 32) {
+        
+    }
 }
