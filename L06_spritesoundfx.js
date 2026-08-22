@@ -6,7 +6,7 @@ function setup() {
     createCanvas(400, 400);
     background(225);
 //   noLoop(); // Stops continuous drawing
-bgMusic.loop();
+    bgMusic.loop();
 }
 function draw() {
     
@@ -32,4 +32,5 @@ function draw() {
 }
 function preload() {
     soundEffect = loadSound('assets/pop.mp3');
+    
 }
