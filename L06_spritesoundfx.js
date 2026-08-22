@@ -31,7 +31,7 @@ function draw() {
     createCanvas(400, 400);
     background("lightblue");
     image(staticImage, x, y, 110, 133);
-    x = constrain(x, 0, width)
+    x = Implementconstrain(x, 0, width)
     y = constrain(y, 0, height)
 }
 function preload() {
