@@ -30,7 +30,7 @@ function draw() {
 
     if (x === 400 || x === 0 || y === 400 || y === 0) {
         // soundEffect.play();
-        background('red');
+        background("red");
         if (!soundEffect.isplaying()) {
             soundEffect.play();
         }
