@@ -1,5 +1,6 @@
 
-let x 
+let x = 0;
+ley
 
 function setup() {
     createCanvas(400, 400);
