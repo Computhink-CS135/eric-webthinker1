@@ -29,7 +29,7 @@ function draw() {
     // rect(x, y, 50, 50);
 
     createCanvas(400, 400);
-    background("red");
+    background("lightblue");
     image(staticImage, x, y, 110, 133);
     x = constrain(x, 0, width - 100);
     y = constrain(y, 0, height - 100);
