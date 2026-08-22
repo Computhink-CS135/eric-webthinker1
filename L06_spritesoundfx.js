@@ -27,9 +27,9 @@ function draw() {
     // rect(x, y, 50, 50);
 
     background("lightblue");
-    image(staticImage, 0, 0, 110, )
+    image(staticImage, 0, 0, 110, 133);
 }
 function preload() {
-    soundEffect = loadSound('assets/pop.mp3')
+    soundEffect = loadSound('assets/pop.mp3');
     bgMusic.loop();
 }
