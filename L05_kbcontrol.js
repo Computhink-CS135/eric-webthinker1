@@ -22,8 +22,8 @@ function draw() {
 
     if (x < 50) {
         x = 50;
-    } if (x > height - 50) {
-        y = height - 50;
+    } if (x > height - 25) {
+        x = height - 50;
     }
 
 
