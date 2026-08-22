@@ -31,5 +31,4 @@ function draw() {
 }
 function preload() {
     soundEffect = loadSound('assets/pop.mp3');
-    bgMusic.loop();
 }
