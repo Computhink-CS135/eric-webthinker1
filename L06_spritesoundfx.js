@@ -16,7 +16,7 @@ function draw() {
 
     if (keyIsDown(RIGHT_ARROW)) {
         x += 5;
-    } else if (keyIsDown(T_ARROW)) {
+    } else if (keyIsDown(UP_ARROW)) {
         x -= 5;
     }
     circle(width / 2 + x, height / 2, 50);
