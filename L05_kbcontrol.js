@@ -19,12 +19,11 @@ function draw() {
     //     x -= 5;
     // }
     // circle(width / 2 + x, height / 2, 50);
-
-    if (x < 25) {
-        x = 25;
-    } if (x > height - 25) {
-        x = height - 25;
-    }
+    // if (x < 25) {
+    //     x = 25;
+    // } if (x > height - 25) {
+    //     x = height - 25;
+    // }
 
 
     if(keyCode == UP_ARROW) {
