@@ -31,7 +31,6 @@ function draw() {
     background("lightblue");
     image(staticImage, x, y, 110, 133);
     createCanvas(400, 400);
-    background(225);
 }
 function preload() {
     soundEffect = loadSound('assets/pop.mp3');
