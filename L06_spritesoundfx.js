@@ -1,5 +1,5 @@
 
-let x = 100;
+let x = width / 2;
 let y = 200;
 
 function setup() {
