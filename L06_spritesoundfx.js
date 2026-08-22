@@ -20,9 +20,4 @@ function draw() {
         y += 5;
     }
 
-    if (x < 25) {
-        x = 25;
-    } if (x > height - 25) {
-        x = height - 25;
-    }
 }
