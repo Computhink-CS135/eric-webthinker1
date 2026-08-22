@@ -30,7 +30,7 @@ function draw() {
 
     if (x === 400 || x === 0 || y === 400 || y === 0) {
         popSound.play();
-        sou
+        soundEffect.play();
         background(255, 0, 0);
     }
     createCanvas(400, 400);
