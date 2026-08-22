@@ -17,7 +17,7 @@ function draw() {
         y += 5;
     } else if (keyIsDown(UP_ARROW)) {
         y -= 5;
-    } else if (keyIsDown(SPACE_BAR)) {
+    } if (keyIsDown(SPACE_BAR)) {
         fill(255, 0, 255);
     }
     x = constrain(x, 50, 350)
