@@ -21,7 +21,7 @@ function draw() {
     if (keyIsDown(SPACE_BAR)) {
         fill(255, 0, 255);
     } else {
-        fill( )
+        fill(255, 255, 255)
     } 
     x = constrain(x, 50, 350)
     y = constrain(y, 50, 350)
