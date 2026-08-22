@@ -29,6 +29,7 @@ function draw() {
     // rect(x, y, 50, 50);
 
     if (x === 100 || x === 0) {
+        
     }
     createCanvas(400, 400);
     background("lightblue");
