@@ -20,10 +20,10 @@ function draw() {
     // }
     // circle(width / 2 + x, height / 2, 50);
 
-    if (x < 50) {
-        x = 50;
+    if (x < 25) {
+        x = 25;
     } if (x > height - 25) {
-        x = height - 50;
+        x = height - 25;
     }
 
 
