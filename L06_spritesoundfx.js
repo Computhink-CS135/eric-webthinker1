@@ -28,8 +28,8 @@ function draw() {
     // background(225);
     // rect(x, y, 50, 50);
 
-    background("lightblue");
     createCanvas(400, 400);
+    background("lightblue");
     image(staticImage, x, y, 110, 133);
 }
 function preload() {
