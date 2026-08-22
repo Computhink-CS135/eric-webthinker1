@@ -33,8 +33,8 @@ function draw() {
         // soundEffect.play();
         background(255, 0, 0);
     }
-    createCanvas(400, 400);
     background("lightblue");
+    createCanvas(400, 400);
     image(staticImage, x, y, 110, 133);
     x = constrain(x, 0, width - 100);
     y = constrain(y, 0, height - 100);
