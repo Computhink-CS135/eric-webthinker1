@@ -1,7 +1,7 @@
 
 let x = 0;
 let y = 0;
-let soundEffect,
+let soundEffect, bgMusic
 
 function setup() {
     createCanvas(400, 400);
