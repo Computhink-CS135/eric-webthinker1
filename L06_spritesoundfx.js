@@ -22,5 +22,6 @@ function draw() {
     x = constrain(x, 0, width)
     y = constrain(y, 0, height)
 
-    // circle(width / 2 + x, height / 2 + y, 50);
+    createCanvas(400, 400);
+    background(225);
 }
