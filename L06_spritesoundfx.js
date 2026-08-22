@@ -32,7 +32,7 @@ function draw() {
     background("lightblue");
     image(staticImage, x, y, 110, 133);
     x = constrain(x, 0, width)
-    y = constrain(y, 0, 350)
+    y = constrain(y, 0, height)
 }
 function preload() {
     soundEffect = loadSound('assets/pop.mp3');
