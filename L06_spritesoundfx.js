@@ -19,5 +19,5 @@ function draw() {
     } else if (keyIsDown(UP_ARROW)) {
         y += 5;
     }
-    circle(width / 2 + x, height / 2, 50);
+    circle(width / 2 + x, height / 2 + y, 50);
 }
