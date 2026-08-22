@@ -8,7 +8,7 @@ function setup() {
 //   noLoop(); // Stops continuous drawing
 }
 function draw() {
-    rect(width / 2 - 50 / 2 + , height / 2 - 50 / 2, 50, 50);
+    rect(width / 2 - 50 / 2, height / 2 - 50 / 2, 50, 50);
     
     if (keyIsDown(RIGHT_ARROW)) {
         x += 5;
