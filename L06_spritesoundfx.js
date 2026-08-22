@@ -19,6 +19,7 @@ function draw() {
     // } else if (keyIsDown(UP_ARROW)) {
     //     y -= 5;
     // }
+    x = constrain(y, 0, height)
     y = constrain(y, 0, height)
 
     // circle(width / 2 + x, height / 2 + y, 50);
