@@ -4,4 +4,18 @@ function setup() {
     background(225);
 //   noLoop(); // Stops continuous drawing
 }
-function draw()
+function draw() {
+    rect(width / 2 - rectsize / 2, height / 2 - rectsize / 2, rectsize, rectsize);
+
+    if (keyIsDown(RIGHT_ARROW)) {
+        x += 5;
+    } else if (keyIsDown(LEFT_ARROW)) {
+        x -= 5;
+    }
+    circle(width / 2 + x, height / 2, 50);
+    if (x < 25) {
+        x = 25;
+    } if (x > height - 25) {
+        x = height - 25;
+    }
+}
