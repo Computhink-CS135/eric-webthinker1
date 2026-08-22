@@ -18,7 +18,7 @@ function draw() {
     } else if (keyIsDown(UP_ARROW)) {
         y -= 5;
     } else if (keyIsDown(32)) {
-        y -= 5;
+        fill();
     }
     x = constrain(x, 0, width)
     y = constrain(y, 0, height)
