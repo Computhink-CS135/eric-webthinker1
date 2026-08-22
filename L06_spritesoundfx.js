@@ -29,7 +29,7 @@ function draw() {
     // rect(x, y, 50, 50);
 
     if (x === 400 || x === 0 || y === 400 || y === 0) {
-        
+        soundEffect.play()
     }
     createCanvas(400, 400);
     background("lightblue");
