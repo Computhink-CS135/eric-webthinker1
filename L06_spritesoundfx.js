@@ -22,6 +22,7 @@ function draw() {
     x = constrain(x, 0, width)
     y = constrain(y, 0, height)
 
+    
     createCanvas(400, 400);
     background(225);
 }
