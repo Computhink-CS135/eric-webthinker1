@@ -28,5 +28,6 @@ function draw() {
 
 }
 function preload() {
-    soundEffect = loadSound('assets/po.')
+    soundEffect = loadSound('assets/pop.mp3')
+    
 }
