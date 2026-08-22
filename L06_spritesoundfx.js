@@ -25,4 +25,5 @@ function draw() {
 
     createCanvas(400, 400);
     background(225);
+    rect(x, y, 50, 50);
 }
