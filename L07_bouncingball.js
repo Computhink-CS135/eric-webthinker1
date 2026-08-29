@@ -58,6 +58,7 @@ function draw() {
     ballX += ballSpeedX;
     ballY += ballSpeedY;
     if (ballX <= 0 || ballX >= 600) {
+        ballSpeedX = -2
         
     }
     noStroke();
