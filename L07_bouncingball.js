@@ -47,7 +47,7 @@
 let ballX = 300;
 let ballY = 200;
 let ballsize = random(20, 100);
-let ballSpeedX = 10;
+let ballSpeedX = 5;
 let ballSpeedY = 5;
 
 function setup() {
