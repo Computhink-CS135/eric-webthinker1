@@ -48,3 +48,8 @@
 function setup() {
     createCanvas(600, 400);
 }
+function draw() {
+    background("gray");
+    fill("red");
+    ellipse(mouseX, mouseY, 50, 50);
+}
