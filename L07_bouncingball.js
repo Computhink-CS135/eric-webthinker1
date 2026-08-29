@@ -53,17 +53,17 @@ let ballSpeedY = 5;
 function setup() {
     createCanvas(600, 400);
     background(220);
+    fill("#a834eb");
 }
 function draw() {
     ballX += ballSpeedX;
     ballY += ballSpeedY;
     if (ballX <= 0 + ballsize / 2 || ballX >= width - ballsize / 2) {
         ballSpeedX *= -1
-        
+
     } if (ballY <= 0 + ballsize / 2 || ballY >= height - ballsize / 2) {
         ballSpeedY *= -1
     }
     noStroke();
-    fill("#a834eb");
     circle(ballX, ballY, ballsize);
 }
