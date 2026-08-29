@@ -7,3 +7,6 @@ function preload() {
     picoImage = loadImage('assets/pico.png');
     popSound = loadSound('assets/pop.mp3');
 }
+function setup() {
+
+}
