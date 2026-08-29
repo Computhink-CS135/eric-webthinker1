@@ -58,7 +58,7 @@ function draw() {
     ballX += ballSpeedX
     ballY += ballSpeedY
     if (ballX < 0 || ballX > 600) {
-        q
+        
     }
     noStroke();
     fill("#a834eb");
