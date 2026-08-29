@@ -57,5 +57,5 @@ function draw() {
     background(220);
     noStroke();
     fill("#a834eb");
-    circle(ballX += ballSpeedX, ballY += ballSpeedY, ballsize);
+    circle(ballX, ballY, ballsize);
 }
