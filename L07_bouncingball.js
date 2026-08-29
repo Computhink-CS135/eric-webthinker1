@@ -27,6 +27,4 @@ function draw() {
     createCanvas(600, 400);
     background("gray");
     image(picoImage, x, y, 100, 100);
-
-    constrain(x, 0, width - 100);
 }
