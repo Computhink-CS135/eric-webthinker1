@@ -59,7 +59,7 @@ function draw() {
     ballY += ballSpeedY;
     if (ballX <= 0 || ballX >= width) {
         ballSpeedX *= -1
-    } if (ballY <= 0 || ballY >= width) {
+    } if (ballY <= 0 || ballY >= height) {
         ballSpeedY *= -1
     }
     noStroke();
