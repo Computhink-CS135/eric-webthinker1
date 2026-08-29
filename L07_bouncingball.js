@@ -12,5 +12,5 @@ function setup() {
 }
 function draw() {
     background("gray");
-    Image(picoImage, 100, 100, 200, 200);
+    image(picoImage, 100, 100, 200, 200);
 }
