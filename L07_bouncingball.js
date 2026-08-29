@@ -44,7 +44,11 @@
 //     }
 // }
 
-let
+let ballX = 300;
+let ballY = 200;
+let ballSpeedX = 5;
+let ballSpeedY = 3;
+let ballDiameter = 50;
 
 function setup() {
     createCanvas(600, 400);
