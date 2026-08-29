@@ -57,6 +57,8 @@ function draw() {
     background(220);
     ballX += ballSpeedX
     ballY += ballSpeedY
+    x = constrain(x, 0, width - 100);
+    y = constrain(y, 0, height - 100);
     noStroke();
     fill("#a834eb");
     circle(ballX, ballY, ballsize);
