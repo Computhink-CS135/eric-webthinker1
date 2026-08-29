@@ -24,6 +24,8 @@ function draw() {
     } else if (keyIsDown(UP_ARROW)) {
         y -= 5;
     }
+    x = constrain(x, 0, width - 100);
+    y = constrain(y, 0, height - 100);
     createCanvas(600, 400);
     background("gray");
     image(picoImage, x, y, 100, 100);
