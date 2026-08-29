@@ -57,7 +57,7 @@ function setup() {
 function draw() {
     ballX += ballSpeedX;
     ballY += ballSpeedY;
-    if (ballX <= 0 + ballsize  || ballX >= width - 25) {
+    if (ballX <= 0 + ballsize / 2 || ballX >= width - 25) {
         ballSpeedX *= -1
     } if (ballY <= 25 || ballY >= height - 25) {
         ballSpeedY *= -1
