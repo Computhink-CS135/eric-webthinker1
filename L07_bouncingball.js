@@ -22,7 +22,8 @@ function draw() {
     } else if (keyIsDown(UP_ARROW)) {
         y -= 5;
     }
-    
+    createCanvas(600, 400);
+    background("gray");
     image(picoImage, width / 2 - 50, height / 2 - 50, 100, 100);
 
 }
