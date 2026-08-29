@@ -54,7 +54,7 @@ function setup() {
     createCanvas(600, 400);
 }
 function draw() {
-    background(220);
+    // background(220);
     ballX += ballSpeedX;
     ballY += ballSpeedY;
     if (ballX <= 0 || ballX >= width) {
