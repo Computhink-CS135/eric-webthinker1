@@ -24,8 +24,7 @@ function draw() {
     } else if (keyIsDown(UP_ARROW)) {
         y -= 5;
     } else if (keyIsDown(SPACE_KEY)) {
-        x = width / 2 - 50;
-        y = height / 2 - 50;
+        x = width / 2
         popSound.play();
     }
     x = constrain(x, 0, width - 100);
