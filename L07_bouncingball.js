@@ -64,6 +64,7 @@ function draw() {
 
     } if (ballY <= 0 + ballsize / 2 || ballY >= height - ballsize / 2) {
         ballSpeedY *= -1
+        fill(random(0, 255), random(0, 255), random(0, 255))
     }
     noStroke();
     circle(ballX, ballY, ballsize);
