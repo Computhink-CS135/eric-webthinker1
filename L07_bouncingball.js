@@ -63,7 +63,7 @@ function draw() {
         fill(random(0, 255), random(0, 255), random(0, 255))
 
     } if (ballY <= 0 + ballsize / 2 || ballY >= height - ballsize / 2) {
-        ballSpeedY *= -1
+        ballSpeedY *= random(-1, -2)
         fill(random(0, 255), random(0, 255), random(0, 255))
     }
     noStroke();
