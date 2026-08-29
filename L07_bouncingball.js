@@ -25,7 +25,8 @@ function draw() {
         y -= 5;
     } else if (keyIsDown(SPACE_KEY)) {
         x = width / 2 - 50;
-        
+        y = height / 2 - 50;
+        popSound.play();
     }
     x = constrain(x, 0, width - 100);
     y = constrain(y, 0, height - 100);
