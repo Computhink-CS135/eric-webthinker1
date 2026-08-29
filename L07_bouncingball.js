@@ -13,4 +13,14 @@ function setup() {
 function draw() {
     background("gray");
     image(picoImage, width / 2 - 50, height / 2 - 50, 100, 100);
+
+    if (keyIsDown(RIGHT_ARROW)) {
+        x += 5;
+    } else if (keyIsDown(LEFT_ARROW)) {
+        x -= 5;
+    } else if (keyIsDown(DOWN_ARROW)) {
+        y += 5;
+    } else if (keyIsDown(UP_ARROW)) {
+        y -= 5;
+    }
 }
