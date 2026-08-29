@@ -55,8 +55,8 @@ function setup() {
 }
 function draw() {
     background(220);
-    ballX += ballSpeedX
-    ballY += ballSpeedY
+    ballX += ballSpeedX;
+    ballY += ballSpeedY;
     if (ballX <= 0 || ballX >= 600) {
         
     }
