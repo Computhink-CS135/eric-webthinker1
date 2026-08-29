@@ -8,5 +8,5 @@ function preload() {
     popSound = loadSound('assets/pop.mp3');
 }
 function setup() {
-
+    createCanvas(400, 400);
 }
