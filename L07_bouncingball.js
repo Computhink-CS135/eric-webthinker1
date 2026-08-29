@@ -31,7 +31,7 @@ function draw() {
     image(picoImage, x, y, 100, 100);
 }
 function keyPressed() {
-    if (keyCode === 32) {
+    if (key === "a") {
         popSound.play()
     }
 }
