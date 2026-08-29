@@ -29,10 +29,11 @@ function draw() {
     y = constrain(y, 0, height - 100);
     createCanvas(600, 400);
     background("gray");
-    image(picoImage, x, y, 100, 100);
+    image(picoImage, x, y, picoWidth, 100);
 }
 function keyPressed() {
     if (keyCode === 32) {
         popSound.play()
+        
     }
 }
