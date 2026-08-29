@@ -23,13 +23,15 @@ function draw() {
         y += 5;
     } else if (keyIsDown(UP_ARROW)) {
         y -= 5;
-    } else if (keyIsDown(SPACE_KEY)) {
-        x = width / 2;
-        popSound.play();
-    }
+    } 
     x = constrain(x, 0, width - 100);
     y = constrain(y, 0, height - 100);
     createCanvas(600, 400);
     background("gray");
     image(picoImage, x, y, 100, 100);
+}
+function keyPressed() {
+    if (keyCode === 32) {
+        popSound.play()
+    }
 }
