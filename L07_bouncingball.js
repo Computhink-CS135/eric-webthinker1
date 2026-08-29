@@ -53,5 +53,6 @@ function setup() {
 }
 function draw() {
     background(220);
+    noS
     circle(ballX, ballY, ballsize);
 }
