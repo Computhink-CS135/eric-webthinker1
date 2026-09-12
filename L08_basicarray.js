@@ -32,7 +32,7 @@ function setup() {
     // text("My favourite activity is gaming.", 50, 150);
 }
 function draw() {
-    yPos -= 10
+    yPos -= 5
     createCanvas(600, 400);
     background(220);
     textSize(random(24, 26));
