@@ -27,5 +27,5 @@ function setup() {
     text("Ola!", width / 2, height / 2);
 }
 function draw() {
-
+    
 }
