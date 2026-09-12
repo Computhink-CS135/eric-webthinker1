@@ -23,13 +23,15 @@
 function setup() {
     createCanvas(600, 400);
     background(220);
-    textSize(random(1, 100));
+    textSize(random(1, 20));
     textAlign(LEFT, TOP);
     // text("My name is Eric.", 50, 50);
     // text("I am 10 this year.", 50, 100);
     // text("My favourite activity is gaming.", 50, 150);
 }
 function draw() {
-    fill(0)
+    fill(0);
     text("My favourite foods:", 50, 50);
+    for (let i = 0; i < favouriteFoods.length; i++);
+    
 }
