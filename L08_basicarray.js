@@ -35,7 +35,7 @@ function draw() {
     yPos -= 10
     createCanvas(600, 400);
     background(220);
-    textSize(random(24, 2));
+    textSize(random(24, 26));
     text("My favourite foods:", 50, 50);
     for (let i = 0; i < favouriteFoods.length; i++) {
         text((i + 1) + ". " + favouriteFoods[i], 50, yPos + i * 30);
