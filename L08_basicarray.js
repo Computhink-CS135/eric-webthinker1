@@ -23,8 +23,8 @@
 function setup() {
     createCanvas(600, 400);
     background(220);
-    textSize(random(20, 40))
+    textSize(random(20, 50))
 }
 function draw() {
-
+    
 }
