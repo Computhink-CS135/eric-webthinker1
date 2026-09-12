@@ -5,7 +5,7 @@ function setup() {
     background(220);
 }
 function draw() {
-    Fil()
+    fill(255, )
     rect(squareX, squareY, 100, 100);
 
 }
