@@ -29,6 +29,6 @@ function setup() {
     // text("I am 10 this year.", 50, 100);
     // text("My favourite activity is gaming.", 50, 150);
 }
-// function draw() {
-
-// }
+function draw() {
+    
+}
