@@ -20,7 +20,7 @@
 //     rect(squareX, squareY, 100, 100);
 // }
 
-favouriteFoods = ["Pizza", "Burger", "Sushi", "Tacos", ]
+favouriteFoods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
 function setup() {
     createCanvas(600, 400);
     background(220);
