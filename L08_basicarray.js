@@ -24,7 +24,7 @@ favouriteFoods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
 function setup() {
     createCanvas(600, 400);
     background(220);
-    textSize(random(1, 50));
+    // textSize(random(1, 50));
     textAlign(CENTER, CENTER);
     yPos = height;
     // text("My name is Eric.", 50, 50);
@@ -35,6 +35,7 @@ function draw() {
     yPos -= 10
     createCanvas(600, 400);
     background(220);
+    textSize(random(1, 50));
     text("My favourite foods:", 50, 50);
     for (let i = 0; i < favouriteFoods.length; i++) {
         text((i + 1) + ". " + favouriteFoods[i], 50, yPos + i * 30);
