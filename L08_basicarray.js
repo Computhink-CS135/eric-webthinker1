@@ -32,7 +32,7 @@ function setup() {
     // text("My favourite activity is gaming.", 50, 150);
 }
 function draw() {
-    fill(255);
+    fill();
     yPos -= 0.5
     createCanvas(600, 400);
     background(220);
