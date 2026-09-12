@@ -10,7 +10,7 @@ function setup() {
 function draw() {
     squareX += squarespeed;
     // squareY += squarespeed;
-    if (squareX > width) {
+    if (squareX + 100 > width) {
         squarespeed *= -1
     }
     fill(255, 0, 255);
