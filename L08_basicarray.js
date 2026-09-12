@@ -27,6 +27,6 @@ function setup() {
     textAlign(CENTER, CENTER)
     text("Ola!", width / 2, height / 2);
 }
-function draw() {
+// function draw() {
 
-}
+// }
