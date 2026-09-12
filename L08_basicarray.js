@@ -19,3 +19,7 @@
 //     fill(255, 0, 255);
 //     rect(squareX, squareY, 100, 100);
 // }
+
+function setup() {
+    
+}
