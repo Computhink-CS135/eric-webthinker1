@@ -20,7 +20,7 @@
 //     rect(squareX, squareY, 100, 100);
 // }
 
-favouriteFoods
+favouriteFoods = ["p"]
 function setup() {
     createCanvas(600, 400);
     background(220);
