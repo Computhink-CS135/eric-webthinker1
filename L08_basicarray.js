@@ -1,7 +1,7 @@
 
 // recap 1
-let squareX = 0
-let squareY = 0 
+let squareX = 1
+let squareY = 1
 let squarespeed = 5
 function setup() {
     createCanvas(600, 400);
