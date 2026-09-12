@@ -30,6 +30,6 @@ function setup() {
     // text("My favourite activity is gaming.", 50, 150);
 }
 function draw() {
-    FileList(0)
-    
+    fill(0)
+
 }
