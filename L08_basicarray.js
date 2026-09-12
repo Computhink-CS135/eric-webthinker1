@@ -9,9 +9,9 @@ function setup() {
 }
 function draw() {
     squareX += squarespeed;
-    squareY += s;
+    squareY += squarespeed;
     if (squareX > width) {
-        
+        squarespeed*= -1
     }
     fill(255, 0, 255);
     rect(squareX, squareY, 100, 100);
