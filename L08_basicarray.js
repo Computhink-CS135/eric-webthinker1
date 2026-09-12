@@ -23,7 +23,7 @@
 function setup() {
     createCanvas(600, 400);
     background(220);
-    // textSize(random(1, 100));
+    textSize(random(1, 100));
     textAlign(LEFT, TOP);
     // text("My name is Eric.", 50, 50);
     // text("I am 10 this year.", 50, 100);
@@ -31,5 +31,5 @@ function setup() {
 }
 function draw() {
     fill(0)
-    text("My favourite foods:", 50, 150);
+    text("My favourite foods:", 50, 50);
 }
