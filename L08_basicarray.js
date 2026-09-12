@@ -33,7 +33,7 @@ function setup() {
 }
 function draw() {
     fill(0);
-    yPos -= 1
+    yPos -= 0.5
     text("My favourite foods:", 50, 50);
     for (let i = 0; i < favouriteFoods.length; i++) {
         text((i + 1) + ". " + favouriteFoods[i], 50, yPos + i * 30);
