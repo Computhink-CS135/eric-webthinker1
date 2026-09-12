@@ -8,10 +8,10 @@ function setup() {
     background(220);
 }
 function draw() {
-    squareX += squarespeedx;
+    squareX += squarespeedX;
     squareY += squarespeed;
     if (squareX + 100 > width || squareX < 0) {
-        squarespeed *= -1
+        squarespeedX *= -1
     } if (squareY + 100 > height || squareX < 0) {
         squarespeed *= -1
     }
