@@ -10,8 +10,8 @@ function draw() {
     squareX += 5;
     squareY += 5;
     if (squareX > width) {
-
+        
     }
-   fill(255, 0, 255);
+    fill(255, 0, 255);
     rect(squareX, squareY, 100, 100);
 }
