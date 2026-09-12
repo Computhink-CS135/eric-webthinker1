@@ -8,7 +8,7 @@ function setup() {
     background(220);
 }
 function draw() {
-    squareX += squarespeed;
+    squareX += squarespeedx;
     squareY += squarespeed;
     if (squareX + 100 > width || squareX < 0) {
         squarespeed *= -1
