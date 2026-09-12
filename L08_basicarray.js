@@ -31,5 +31,5 @@ function setup() {
 }
 function draw() {
     fill(0)
-    
+    text("My favourite activity is gaming.", 50, 150);
 }
