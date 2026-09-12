@@ -25,7 +25,7 @@ function setup() {
     createCanvas(600, 400);
     background(220);
     // textSize(random(1, 50));
-    textAlign(CENTER, CENTER);
+    // textAlign(CENTER, CENTER);
     yPos = height;
     // text("My name is Eric.", 50, 50);
     // text("I am 10 this year.", 50, 100);
