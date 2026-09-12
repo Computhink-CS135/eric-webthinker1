@@ -26,6 +26,8 @@ function setup() {
     textSize(random(1, 100));
     textAlign(CENTER, CENTER);
     text("My name is Eric.", 50, 50);
+    text("My name is Eric.", 50, 50);
+    text("My name is Eric.", 50, 50);
 }
 // function draw() {
 
