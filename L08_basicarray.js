@@ -8,6 +8,7 @@ function setup() {
 }
 function draw() {
     squareX += 5;
+    squareY += 5;
     fill(255, 0, 255);
     rect(squareX, squareY, 100, 100);
 }
