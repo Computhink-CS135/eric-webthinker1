@@ -31,5 +31,5 @@ function setup() {
 }
 function draw() {
     fill(0)
-    text("My favourite foods: gaming.", 50, 150);
+    text("My favourite foods:", 50, 150);
 }
