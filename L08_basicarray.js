@@ -27,7 +27,7 @@ function setup() {
     textAlign(CENTER, CENTER);
     text("My name is Eric.", 50, 50);
     text("I am 10 this year.", 50, 50);
-    text("My favourite acti.", 50, 50);
+    text("My favourite activity.", 50, 50);
 }
 // function draw() {
 
