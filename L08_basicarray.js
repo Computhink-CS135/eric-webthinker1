@@ -24,7 +24,7 @@ function setup() {
     createCanvas(600, 400);
     background(220);
     textSize(random(1, 100));
-    textAlign(CENTER, CENTER);
+    // textAlign(CENTER, CENTER);
     text("My name is Eric.", 50, 50);
     text("I am 10 this year.", 50, 100);
     text("My favourite activity is gaming.", 50, 150);
