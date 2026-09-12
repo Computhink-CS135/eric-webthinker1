@@ -7,7 +7,7 @@ function setup() {
     background(220);
 }
 function draw() {
-    su
+    squareX +=5
     fill(255, 0, 255)
     rect(squareX, squareY, 100, 100);
 }
