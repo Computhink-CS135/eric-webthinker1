@@ -32,6 +32,7 @@ function setup() {
 function draw() {
     fill(0);
     text("My favourite foods:", 50, 50);
-    for (let i = 0; i < favouriteFoods.length; i++);
-    
+    for (let i = 0; i < favouriteFoods.length; i++) {
+        text
+    }
 }
