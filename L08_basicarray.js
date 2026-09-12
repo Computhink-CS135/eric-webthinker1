@@ -3,6 +3,7 @@
 let squareX = 0
 let squareY = 0
 let squarespeedX = 5
+let squarespeedY = 5
 function setup() {
     createCanvas(600, 400);
     background(220);
