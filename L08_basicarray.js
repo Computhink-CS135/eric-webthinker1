@@ -24,7 +24,7 @@ function setup() {
     createCanvas(600, 400);
     background(220);
     textSize(random(1, 100));
-    textAlign(CENTER<)
+    textAlign(CENTER, CENTER)
     text("Ola!", width / 2, height / 2);
 }
 function draw() {
