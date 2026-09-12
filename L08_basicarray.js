@@ -24,7 +24,7 @@ favouriteFoods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
 function setup() {
     createCanvas(600, 400);
     background(220);
-    // textSize(random(1, 50));
+    textSize(random(1, 50));
     textAlign(CENTER, CENTER);
     yPos = height;
     // text("My name is Eric.", 50, 50);
