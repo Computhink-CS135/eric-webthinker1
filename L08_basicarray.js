@@ -3,7 +3,7 @@
 let squareX = 0
 let squareY = 0 
 function setup() {
-    new Canvas(600, 400);
+    createCanvas(600, 400);
     background(220);
 }
 function draw() {
