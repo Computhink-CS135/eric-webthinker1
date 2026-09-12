@@ -8,8 +8,8 @@ function setup() {
     background(220);
 }
 function draw() {
-    squareX += 5;
-    squareY += 5;
+    squareX += squarespeed;
+    squareY += s;
     if (squareX > width) {
         
     }
