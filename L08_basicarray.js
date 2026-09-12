@@ -1,7 +1,7 @@
 
 // recap 1
-let squareX = 1
-let squareY = 1
+let squareX = 0
+let squareY = 0
 let squarespeed = 5
 function setup() {
     createCanvas(600, 400);
@@ -10,7 +10,7 @@ function setup() {
 function draw() {
     squareX += squarespeed;
     // squareY += squarespeed;
-    if (squareX + 100 > width || squareX < width) {
+    if (squareX + 100 > width || squareX < 0) {
         squarespeed *= -1
     }
     fill(255, 0, 255);
