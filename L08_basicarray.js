@@ -5,6 +5,6 @@ function setup() {
     background(220);
 }
 function draw() {
-    rect(width / 2, height / 2, 100, 100);
-    
+    rect(squarex, height / 2, 100, 100);
+
 }
