@@ -5,7 +5,7 @@ let squareY = 0
 let squarespeedX = 5
 let squarespeedY = 5
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(150, 400);
     background(220);
 }
 function draw() {
