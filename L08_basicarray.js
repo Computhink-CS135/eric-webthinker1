@@ -25,7 +25,7 @@ function setup() {
     background(220);
     textSize(random(1, 100));
     textAlign(CENTER, CENTER)
-    text("Ola!", width / 2, height / 2);
+    text("Ola!", 50, 50);
 }
 // function draw() {
 
