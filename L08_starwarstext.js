@@ -2,7 +2,7 @@ let yPos;
 let textA = ["ur adopted", "credits:", "Eric #1", "Eric #2", "Eric #3"];
 let bgMusic;
 
-function preLoad() {
+function preload() {
     bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
 }
 function setup() {
