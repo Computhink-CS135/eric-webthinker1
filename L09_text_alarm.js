@@ -11,7 +11,7 @@ function draw() {
     min = minute();
     sec = second();
 
-    timeString = nf(hour, 2) + " : " + nf()
+    timeString = nf(hour, 2) + " : " + nf(min, 2)
 
     background(220)
 
