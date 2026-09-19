@@ -4,9 +4,9 @@ function setup() {
     textAlign(LEFT, CENTER);
     textSize(24);
     fill("rgb(150, 0, 255)");
-    background(220)
 }
 function draw() {
+    
 
     hour = hour();
     min = minute();
