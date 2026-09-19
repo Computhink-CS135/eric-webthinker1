@@ -6,6 +6,7 @@ function setup() {
     fill("rgb(150, 0, 255)");
 }
 function draw() {
+    background()
     hour = hour();
     min = minute();
     sec = second();
