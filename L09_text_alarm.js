@@ -9,4 +9,6 @@ function draw() {
     hour = hour();
     min = minute();
     sec = second();
+
+    TextTrackList()
 }
