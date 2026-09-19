@@ -1,5 +1,5 @@
 
 function setup() {
     createcanvas(600, 400);
-    textAlign()
+    textAlign(L, CENTER)
 }
