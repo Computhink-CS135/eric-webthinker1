@@ -4,9 +4,8 @@ let textA = ["ur adopted", "credits:", "Eric #1", "Eric #2", "Eric #3"]
 let bgMusic;
 
 function preLoad() {
-    
+    bgMusic = loadSound()
 }
-
 function setup() {
     createCanvas(600, 400);
     textAlign(LEFT, CENTER);
