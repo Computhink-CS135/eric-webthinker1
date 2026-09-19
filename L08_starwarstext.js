@@ -7,5 +7,5 @@ function setup() {
 }
 function draw() {
     background(220)
-    text("asd", )
+    text("asd", width / 2, )
 }
