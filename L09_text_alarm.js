@@ -7,7 +7,7 @@ function setup() {
     background(100)
 }
 function draw() {
-    background(100)
+
     hour = hour();
     min = minute();
     sec = second();
