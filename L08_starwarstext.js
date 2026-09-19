@@ -5,4 +5,6 @@ function setup() {
     textSize(24);
     fill("rgb(255, 255, 0)")
 }
-functiondraw
+function draw() {
+    ba
+}
