@@ -10,4 +10,5 @@ function setup() {
 function draw() {
     background(220);
     text("asd", width / 2, yPos);
+    yPos -= 0.6
 }
