@@ -6,5 +6,5 @@ function setup() {
     fill("rgb(150, 0, 255)");
 }
 function draw() {
-
+    hour = hour()
 }
