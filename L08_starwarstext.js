@@ -13,7 +13,7 @@ function setup() {
 function draw() {
     background(0);
     for (let i = 0; i < text.length; i++) {
-        text((i + 1) + text[i], width / 2, yPos + i,  30)
+        text((i + 1) + text[i], width / 2, yPos + i * 30)
     }
     yPos -= 1;
 }
