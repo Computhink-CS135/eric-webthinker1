@@ -13,7 +13,7 @@ function draw() {
 
     timeString = nf(hour, 2) + " : " + nf(min, 2) + " : " + nf(sec, 2);
 
-    // background(220)
+    background(220)
 
     // text(hour, width / 2, height / 2);
     // text(" :", width / 2 + 25, height / 2);
