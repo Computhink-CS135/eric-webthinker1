@@ -7,8 +7,8 @@ function setup() {
 }
 function draw() {
 
-    
-    background(220)
+    background(220);
+
     hour = hour();
     min = minute();
     sec = second();
