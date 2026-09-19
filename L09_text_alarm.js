@@ -10,5 +10,5 @@ function draw() {
     min = minute();
     sec = second();
 
-    text()
+    text(hour, width / 2)
 }
