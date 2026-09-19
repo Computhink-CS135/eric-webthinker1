@@ -1,6 +1,6 @@
 
 let yPos;
-let text = []
+let text = [""]
 
 function setup() {
     createCanvas(600, 400);
