@@ -8,5 +8,5 @@ function setup() {
 function draw() {
     hour = hour();
     min = minute();
-    sec
+    sec = second();
 }
