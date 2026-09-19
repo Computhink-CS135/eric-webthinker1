@@ -4,7 +4,7 @@ let textA = ["ur adopted", "credits:", "Eric #1", "Eric #2", "Eric #3", "Eric #4
 
 function setup() {
     createCanvas(600, 400);
-    textAlign(LEFT, CENTER);
+    textAlign(CENTER, CENTER);
     textSize(24);
     fill("rgb(255, 255, 0)");
 
