@@ -7,7 +7,7 @@ function setup() {
     textSize(24);
     fill("rgb(255, 255, 0)");
 
-    
+    yPos = innerHeight;
 }
 function draw() {
     background(0);
