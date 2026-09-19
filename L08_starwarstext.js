@@ -11,6 +11,6 @@ function setup() {
 }
 function draw() {
     background(0);
-    text("ur adopted", width / 2, yPos);
+    text("ur adopted.", width / 2, yPos);
     yPos -= 0.6;
 }
