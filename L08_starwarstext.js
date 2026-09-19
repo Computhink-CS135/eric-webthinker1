@@ -1,6 +1,6 @@
 
 let yPos;
-let text = ["ur adopted", "credits:", "Eric #1", ""]
+let text = ["ur adopted", "credits:", "Eric #1", "Eric #1", "Eric #1"]
 
 function setup() {
     createCanvas(600, 400);
