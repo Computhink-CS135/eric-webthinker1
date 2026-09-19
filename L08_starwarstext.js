@@ -6,5 +6,5 @@ function setup() {
     fill("rgb(255, 255, 0)")
 }
 function draw() {
-    ba
+    background(220)
 }
