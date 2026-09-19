@@ -7,5 +7,5 @@ function setup() {
 }
 function draw() {
     background(220)
-    text("asd", width / 2, ypos)
+    text("asd", width / 2, yPos)
 }
