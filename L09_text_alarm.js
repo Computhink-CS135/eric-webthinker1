@@ -10,5 +10,5 @@ function draw() {
     min = minute();
     sec = second();
 
-    TextTrackList()
+    text()
 }
