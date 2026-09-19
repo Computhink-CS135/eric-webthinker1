@@ -13,6 +13,7 @@ function draw() {
 
     timeString = nf(hour, 2)
     timeString = nf(min, 2)
+    timeString = nf(min, 2)
 
     background(220)
 
