@@ -13,7 +13,7 @@ function setup() {
 function draw() {
     background(220);
     for (let i = 0; i < text.length; i++) {
-        text((i + 1) + text[i], width / 2, yPos);
+        text((i + 1) + ". " + favouriteFoods[i], 50, yPos + i * 30);
     }
     yPos -= 1;
 }
