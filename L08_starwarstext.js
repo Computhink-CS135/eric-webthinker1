@@ -1,10 +1,10 @@
 
 let yPos;
-let textA = ["ur adopted", "credits:", "Eric #1", "Eric #2", "Eric #3"]
+let textA = ["ur adopted", "credits:", "Eric #1", "Eric #2", "Eric #3"];
 let bgMusic;
 
 function preLoad() {
-    bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3")
+    bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
 }
 function setup() {
     createCanvas(600, 400);
