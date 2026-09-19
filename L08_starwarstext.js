@@ -11,6 +11,6 @@ function setup() {
 }
 function draw() {
     background(0);
-    text("qwertyuiopasdfghjklzxcvbnm", width / 2, yPos);
+    text("", width / 2, yPos);
     yPos -= 1;
 }
