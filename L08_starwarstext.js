@@ -1,6 +1,7 @@
 
 let yPos;
 let textA = ["ur adopted", "credits:", "Eric #1", "Eric #2", "Eric #3"]
+let bg
 
 function setup() {
     createCanvas(600, 400);
