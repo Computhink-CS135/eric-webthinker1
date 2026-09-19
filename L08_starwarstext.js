@@ -8,7 +8,7 @@ function setup() {
     fill("rgb(255, 255, 0)");
 }
 function draw() {
-    background(220);
+    background(0);
     text("asd", width / 2, yPos);
     yPos -= 0.6
 }
