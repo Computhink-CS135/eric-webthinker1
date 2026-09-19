@@ -21,6 +21,13 @@
 // }
 
 favouriteFoods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
+
+let bgMusicA;
+
+function preLoad() {
+    bgMusicA = loadSound("assets/star_wars_theme_8_bit.mp3");
+}
+
 function setup() {
     createCanvas(600, 400);
     background(220);
@@ -30,6 +37,8 @@ function setup() {
     // text("My name is Eric.", 50, 50);
     // text("I am 10 this year.", 50, 100);
     // text("My favourite activity is gaming.", 50, 150);
+
+    bgMusicA
 }
 function draw() {
     yPos -= 0.6
