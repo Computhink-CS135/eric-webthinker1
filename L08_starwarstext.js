@@ -14,7 +14,7 @@ function setup() {
 
     yPos = height;
 
-    
+    bgMusic.play();
 }
 function draw() {
     background(0);
