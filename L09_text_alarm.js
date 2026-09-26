@@ -59,11 +59,11 @@ let intervalid;
 function setup() {
     createCanvas(600, 400);
     // background(220);
-    setInterval(updateCountdown(), 1000);
         
 }
 function draw() {
     text(num, width / 2, height / 2);
+    setInterval(updateCountdown(), 1000);
 }
 function updateCountdown() {
     clear();
