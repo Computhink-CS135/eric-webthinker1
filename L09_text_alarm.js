@@ -22,6 +22,11 @@
 //     // text(sec, width / 2 + 100, height / 2);
 // }
 
+
+
+
+
+
 // let intervalid;
 // let x = 0;
 
