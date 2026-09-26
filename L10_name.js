@@ -1,7 +1,7 @@
 
 let inputText;
 let displayText = "Your Name Here";
-let inputX = this.CanvasCaptureMediaStreamTrack.o
+let inputX = this.CanvasCaptureMediaStreamTrack.offsetLeft + 
 
 function setup() {
     createCanvas(600, 400);
