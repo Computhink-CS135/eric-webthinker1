@@ -59,3 +59,6 @@ function setup() {
     setInterval(updateCountdown(), 1000)
         
 }
+function updateCountdown() {
+    
+}
