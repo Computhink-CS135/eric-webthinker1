@@ -24,5 +24,5 @@
 
 let intervalid = 0
 function setup() {
-    
+    createcanvas(600, 400)
 }
