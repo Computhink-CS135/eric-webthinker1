@@ -3,7 +3,6 @@ let inputText;
 let displayText = "Your Name Here";
 
 function setup() {
-    background(220);
     createCanvas(600, 400);
     textSize(50);
     textAlign(CENTER, CENTER);
@@ -14,6 +13,7 @@ function setup() {
     inputText.input(updateText);
 }
 function draw() {
+    background(220);
     text(displayText, width / 2, height * 0.3);
 }
 function updateText() {
