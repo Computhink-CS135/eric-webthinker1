@@ -5,8 +5,7 @@ let inputX = this.CanvasCaptureMediaStreamTrack.offsetLeft + (width / 2) - 80
 let inputY = this.CanvasCaptureMediaStreamTrack.offsetTop + (height / 2) - 10
 
 function setup() {
-    
-
+    background(220)
     createCanvas(600, 400);
     textSize(50)
     textAlign(CENTER, CENTER)
