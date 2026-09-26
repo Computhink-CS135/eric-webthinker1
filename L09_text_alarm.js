@@ -73,7 +73,9 @@ function updateCountdown() {
         // clearInterval(intervalid);
     }
 }
-function mousePressed() { //  if (numStart === false) {
+function mousePressed() {
+    
+    //  if (numStart === false) {
     //     numStart = true;
     //     num = 5;
     //     intervalid = setInterval(updateCountdown, 1000);
