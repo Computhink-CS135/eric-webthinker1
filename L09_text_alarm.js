@@ -66,7 +66,6 @@ function updateCountdown() {
     clear();
     num -= 1;
     if (num < 0) {
-        text(num, width / 2, height / 2);
         num = 5;
     }
 }
