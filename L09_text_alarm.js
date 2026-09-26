@@ -58,7 +58,6 @@ let intervalid;
 
 function setup() {
     createCanvas(600, 400);
-    // background(220);
     textSize(50);
     intervalid = setInterval(updateCountdown, 1000);
 }
