@@ -14,7 +14,7 @@ function setup() {
     inputText.input(updateText);
 }
 function draw() {
-    Text(displayText, width / 2, height * 0.3);
+    text(displayText, width / 2, height * 0.3);
 }
 function updateText() {
     displayText = this.value();
