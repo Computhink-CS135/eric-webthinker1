@@ -56,6 +56,6 @@
 let intervalid;
 
 function setup() {
-    setInterval(undate)
+    setInterval(update )
         
 }
