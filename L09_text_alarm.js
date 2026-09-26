@@ -68,7 +68,7 @@ clear();
 
 }
 function updateCountdown() {
-    num -= 1;
+    num --;
     if (num <= 0) {
         num = 0
         // clearInterval(intervalid);
