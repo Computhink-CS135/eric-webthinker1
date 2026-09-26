@@ -56,6 +56,6 @@
 let intervalid;
 
 function setup() {
-    setInterval(updateCountdown())
+    setInterval(updateCountdown(), 1000)
         
 }
