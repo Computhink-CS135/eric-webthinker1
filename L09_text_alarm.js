@@ -53,12 +53,12 @@
 
 
 
-let num = 5
+let num = 5;
 let intervalid;
 
 function setup() {
-    createCanvas(600, 400)
-    // background(220)
+    createCanvas(600, 400);
+    // background(220);
     setInterval(updateCountdown(), 1000);
         
 }
