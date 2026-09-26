@@ -27,7 +27,7 @@ let x = 0;
 
 function setup() {
     createCanvas(600, 400);
-    
+    intervalid = setIn
     background(0);
 }
 function draw() {
