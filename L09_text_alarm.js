@@ -70,5 +70,5 @@ function updateCountdown() {
     }
 }
 function mousePressed() {
-    
+    num = 5
 }
