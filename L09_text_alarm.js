@@ -31,13 +31,13 @@ function setup() {
     background(220);
 }
 function draw() {
+   background(220);
+}
+function drawCircle() {
     clear();
     circle(x, 50, 20);
     x += 10;
     if (x > 200) {
         x = 0;
     }
-}
-function drawCircle() {
-    
 }
