@@ -63,8 +63,8 @@ function setup() {
 }
 function draw() {
     clear();
-    text(num, width / 2, height / 2);
     background(220);
+    text(num, width / 2, height / 2);
 }
 function updateCountdown() {
     num -= 1;
