@@ -70,10 +70,10 @@ clear();
 function updateCountdown() {
     num -= 1;
     if (num < 0) {
-        num = 5;
+        clearInterval(intervalid);
     }
 }
 function mousePressed() {
-    // clearInterval(intervalid);
+
     num = 5;
 }
