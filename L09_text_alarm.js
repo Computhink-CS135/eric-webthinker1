@@ -23,6 +23,8 @@
 // }
 
 let intervalid = 0
+let 
+
 function setup() {
     createcanvas(600, 400)
 }
