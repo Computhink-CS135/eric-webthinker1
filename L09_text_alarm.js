@@ -63,9 +63,8 @@ function setup() {
     intervalid = setInterval(updateCountdown, 1000);
 }
 function draw() {
-clear();
+    clear();
     text(num, width / 2, height / 2);
-
 }
 function updateCountdown() {
     num --;
