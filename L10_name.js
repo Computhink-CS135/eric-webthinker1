@@ -1,3 +1,3 @@
 
 let inputText;
-let displayText = ""
+let displayText = "Your mom"
