@@ -10,6 +10,8 @@ function setup() {
 }
 function draw() {
     background(220)
+
+    text
 }
 function updateText() {
     displayText = this.value();
