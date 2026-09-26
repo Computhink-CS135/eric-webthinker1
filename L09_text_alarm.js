@@ -32,7 +32,7 @@
 
 // function setup() {
 //     createCanvas(600, 400);
-//     intervalid = setInterval(drawCircle, 10)
+//     intervalid = setInterval(drawCircle, 10);
 // }
 // function draw() {
 // //    background(220);
@@ -46,7 +46,7 @@
 //     }
 // }
 // function mousePressed() {
-//     clearInterval(intervalid)
+//     clearInterval(intervalid);
 // }
 
 
