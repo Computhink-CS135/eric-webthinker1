@@ -9,7 +9,7 @@ function setup() {
     textSize(50)
     textAlign(CENTER, CENTER)
     inputText = createInput();
-    inputText.position(width / 2, height / 2);
+    inputText.position(width / 2, inputY);
     inputText.input(updateText)
 }
 function draw() {
