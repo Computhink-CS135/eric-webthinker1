@@ -31,6 +31,6 @@ function setup() {
 }
 function draw() {
     clear();
-    cie=r(x, 50, 20);
+    circle(x, 50, 20);
     x += 10
 }
