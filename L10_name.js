@@ -10,7 +10,6 @@ function setup() {
 }
 function draw() {
     background(220)
-
     Text(displayText, width / 2, height / 2)
 }
 function updateText() {
