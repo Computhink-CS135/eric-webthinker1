@@ -61,5 +61,5 @@ function setup() {
         
 }
 function updateCountdown() {
-    num -= 
+    num -= 1
 }
