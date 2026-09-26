@@ -22,9 +22,9 @@
 //     // text(sec, width / 2 + 100, height / 2);
 // }
 
-let intervalid = 0
-let 
+let intervalid = 0;
+let x = 0;
 
 function setup() {
-    createcanvas(600, 400)
+    createcanvas(600, 400);
 }
