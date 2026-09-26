@@ -56,7 +56,6 @@
 let intervalid;
 
 function setup() {
-    setInterval(() => {
+    setInterval()
         
-    }, interval);
 }
