@@ -6,8 +6,8 @@ function setup() {
     createCanvas(600, 400);
     textSize(50);
     textAlign(CENTER, CENTER);
-    let inputX = this.canvas.offsetLeft + (width / 2) - 80
-    let inputY = this.CanvasCaptureMediaStreamTrack.offsetTop + (height / 2) - 10
+    let inputX = this.canvas.offsetLeft + (width / 2) - 80;
+    let inputY = this.canvas.offsetTop + (height / 2) - 10;
     inputText = createInput();
     inputText.position(inputX, inputY);
     inputText.input(updateText);
