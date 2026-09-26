@@ -27,13 +27,14 @@ let x = 0;
 
 function setup() {
     createCanvas(600, 400);
+    
     background(0);
 }
 function draw() {
     clear();
     circle(x, 50, 20);
-    x += 10
+    x += 10;
     if (x > 200) {
-        x = 0
+        x = 0;
     }
 }
