@@ -11,7 +11,7 @@ function setup() {
 function draw() {
     background(220)
 
-    text
+    Text(displayText, )
 }
 function updateText() {
     displayText = this.value();
