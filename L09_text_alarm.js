@@ -65,4 +65,7 @@ function setup() {
 function updateCountdown() {
     clear();
     num -= 1;
+    if (num < 0) {
+        
+    }
 }
