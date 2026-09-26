@@ -31,5 +31,5 @@ function setup() {
 }
 function draw() {
     clear();
-    
+    CSSNumericValue(x, 50, 20)
 }
