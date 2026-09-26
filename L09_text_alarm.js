@@ -31,5 +31,6 @@ function setup() {
 }
 function draw() {
     clear();
-    CSSNumericValue(x, 50, 20)
+    CSSNumericValue(x, 50, 20);
+    x+=10
 }
