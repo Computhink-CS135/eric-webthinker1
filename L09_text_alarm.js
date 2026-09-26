@@ -70,7 +70,8 @@ clear();
 function updateCountdown() {
     num -= 1;
     if (num <= 0) {
-        clearInterval(intervalid);
+        count
+        // clearInterval(intervalid);
     }
 }
 function mousePressed() {
