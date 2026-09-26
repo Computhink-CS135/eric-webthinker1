@@ -62,7 +62,7 @@ function setup() {
         
 }
 function draw() {
-    setInterval(updateCountdown(), 1000);
+    interval = setInterval(updateCountdown(), 1000);
     text(num, width / 2, height / 2);
 }
 function updateCountdown() {
