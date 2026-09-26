@@ -1,2 +1,2 @@
 
-let input
+let inputText;
