@@ -41,5 +41,5 @@ function drawCircle() {
     }
 }
 function mousePressed() {
-    
+    clearInterval
 }
