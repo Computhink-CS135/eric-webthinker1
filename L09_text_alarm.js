@@ -76,5 +76,7 @@ function updateCountdown() {
 }
 function mousePressed() {
     num = 5;
-     if (numStart ===false )false 
+     if (numStart ===false) {
+        
+     }
 }
