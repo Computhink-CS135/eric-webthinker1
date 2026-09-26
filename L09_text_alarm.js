@@ -60,7 +60,7 @@ function setup() {
     createCanvas(600, 400);
     // background(220);
     textSize(50);
-        
+    interval = setInterval(updateCountdown(), 1000);
 }
 function draw() {
     interval = setInterval(updateCountdown(), 1000);
