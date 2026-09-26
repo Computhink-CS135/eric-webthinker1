@@ -53,6 +53,7 @@
 
 
 
+let num = 5
 let intervalid;
 
 function setup() {
@@ -60,5 +61,5 @@ function setup() {
         
 }
 function updateCountdown() {
-    
+
 }
