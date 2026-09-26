@@ -53,4 +53,4 @@
 
 
 
-let inter
+let intervalid;
