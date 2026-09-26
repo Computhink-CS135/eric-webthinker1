@@ -67,14 +67,14 @@ function draw() {
     text(num, width / 2, height / 2);
 }
 function updateCountdown() {
-    num --;
+    num -= 1;
     if (num <= 0) {
-        num = 0
+        num = 0;
         // clearInterval(intervalid);
     }
 }
 function mousePressed() {
-    num = 5
+    num = 5;
 
     //  if (numStart === false) {
     //     numStart = true;
