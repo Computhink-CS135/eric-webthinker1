@@ -69,3 +69,6 @@ function updateCountdown() {
         num = 5
     }
 }
+function mousePressed() {
+    
+}
