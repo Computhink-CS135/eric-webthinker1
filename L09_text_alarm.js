@@ -53,4 +53,4 @@
 
 
 
-let setInterval
+let inter
