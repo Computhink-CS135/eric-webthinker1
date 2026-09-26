@@ -78,5 +78,6 @@ function mousePressed() {
      if (numStart === false) {
         numStart = true;
         num = 5;
+        intervalid = setInterval(updateCountdown, 1000);
      }
 }
