@@ -74,5 +74,6 @@ function updateCountdown() {
     }
 }
 function mousePressed() {
+    clearInterval(intervalid)
     // num = 5;
 }
