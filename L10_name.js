@@ -11,4 +11,6 @@ function setup() {
 function draw() {
     background(220)
 }
-function updateText()
+function updateText() {
+    
+}
