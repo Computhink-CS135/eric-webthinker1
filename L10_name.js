@@ -4,7 +4,7 @@ let displayText = "Your Name Here";
 
 function setup() {
     createCanvas(600, 400);
-    text
+    textSize(50)
     textAlign(CENTER, CENTER)
     inputText = createInput();
     inputText.position(width / 2, height / 2);
