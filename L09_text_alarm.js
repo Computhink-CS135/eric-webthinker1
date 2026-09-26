@@ -59,9 +59,10 @@ let intervalid;
 function setup() {
     createCanvas(600, 400)
     // background(220)
-    setInterval(updateCountdown(), 1000)
+    setInterval(updateCountdown(), 1000);
         
 }
 function updateCountdown() {
-    num -= 1
+    clear();
+    num -= 1;
 }
