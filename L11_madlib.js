@@ -26,7 +26,7 @@ function setup() {
 
     button = createButton("submit");
     button.position(width / 2, height * 0.2 + 250);
-    button.mousePressed(button);
+    button.mousePressed(generateStory);
 }
 function draw() {
     background(220)
@@ -43,7 +43,7 @@ function generateStory() {
     let adjectiveField = adjectiveField.value();
     let adverbField = adverbField.value();
     let placeField = placeField.value();
-    console.log()
+    console.log(noun)
     console.log()
     console.log()
     console.log()
