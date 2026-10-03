@@ -38,9 +38,9 @@ function draw() {
 }
 function generateStory() {
     console.log("Button clicked!");
-    let nounField = nounField.value();
-    let verbField = verbField.value();
-    let adjectiveField = adjectiveField.value();
+    let noun = nounField.value();
+    let verb = verbField.value();
+    let adjective = adjectiveField.value();
     let adverbField = adverbField.value();
     let placeField = placeField.value();
     console.log(noun)
