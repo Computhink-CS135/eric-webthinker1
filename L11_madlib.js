@@ -11,7 +11,7 @@ function setup() {
     let inputY = this.canvas.offsetTop + (height / 2) - 10;
     nounField = createInput();
     verbField = createInput();
-    
+    AdjectiveField
     inputText.position(inputX, inputY);
     inputText.input(updateText);
 }
