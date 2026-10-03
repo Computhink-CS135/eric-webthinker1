@@ -19,7 +19,7 @@ function setup() {
     adjectiveField = createInput();
     adverbField = createInput();
     placeField = createInput();
-    nounField.position(width / 2 + inputX, height / 2)
+    nounField.position(width / 2 + inputX, height / 2 + inputY)
 }
 function draw() {
 
