@@ -28,8 +28,8 @@ function setup() {
     text("Enter a noun: ", width / 4, height * 0.2 + inputY)
     text("Enter a verb: ", width / 4, height * 0.2 + inputY + 50)
     text("Enter a noun: ", width / 4, height * 0.2 + inputY + 50)
-    text("Enter a noun: ", width / 4, height * 0.2 + inputY + 50)
-    text("Enter a noun: ", width / 4, height * 0.2 + inputY + 50)
+    text("Enter a noun: ", width / 4, height * 0.2 + inputY + 150)
+    text("Enter a noun: ", width / 4, height * 0.2 + inputY + 200)
 }
 function draw() {
     background(220)
