@@ -49,6 +49,6 @@ function generateStory() {
     // console.log(adverb)
     // console.log(place)
 
-    let story = `The ${adjective} ${noun} decided to ${verb} ${adverb} at ${place}.`
+    let story = `The ${adjective} ${noun} decided to ${verb} ${adverb} at the ${place}.`
     console.log(story)
 }
