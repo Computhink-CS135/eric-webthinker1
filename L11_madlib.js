@@ -49,6 +49,6 @@ function generateStory() {
     console.log(adverb)
     console.log(place)
 
-    let story 
+    let story = "A "
     console.log("")
 }
