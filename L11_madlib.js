@@ -26,7 +26,7 @@ function setup() {
     placeField.position(width / 2 + inputX, height * 0.2 + inputY + 200);
 }
 function draw() {
-    ba
+    background(220)
 }
 function updateText() {
     displayText = this.value();
