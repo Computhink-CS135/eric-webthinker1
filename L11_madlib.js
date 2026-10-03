@@ -45,5 +45,9 @@ function Button() {
     console.log()
 }
 function generateStory() {
-    let
+    let nounField;
+    let verbField;
+    let adjectiveField;
+    let adverbField;
+let placeField;
 }
