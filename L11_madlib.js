@@ -12,8 +12,6 @@ function setup() {
     createCanvas(600, 400);
     textSize(50);
     textAlign(CENTER, CENTER);
-    let inputX = this.canvas.offsetLeft;
-    let inputY = this.canvas.offsetTop;
     nounField = createInput();
     verbField = createInput();
     adjectiveField = createInput();
