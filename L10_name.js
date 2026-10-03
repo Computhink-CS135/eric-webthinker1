@@ -14,7 +14,7 @@ function setup() {
     inputText.input(updateText);
 
     colourPicker = createColourPicker;
-    colourPicker.position(width / 2, height / 2);
+    colourPicker.position(width / 2, height * 0.7);
 }
 function draw() {
     background(220);
