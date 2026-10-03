@@ -26,7 +26,7 @@ function setup() {
 
     button = createButton("submit");
     button.position(width / 2, height * 0.2 + 250);
-    button.mousePressed(buttonExample);
+    button.mousePressed(button);
 }
 function draw() {
     background(220)
@@ -36,6 +36,6 @@ function draw() {
     text("Enter a adverb: ", width * 0.2, height * 0.2 + 150)
     text("Enter a place: ", width * 0.2, height * 0.2 + 200)
 }
-function buttonExample() {
+function Button() {
     console.log("Button clicked!");
 }
