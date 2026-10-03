@@ -26,6 +26,7 @@ function setup() {
     placeField.position(width / 2 + inputX, height * 0.2 + inputY + 200);
 }
 function draw() {
+    background(220)
     text("Enter a noun: ", width * 0.2, height * 0.2 + inputY)
     text("Enter a verb: ", width * 0.2, height * 0.2 + inputY + 50)
     text("Enter a adjective: ", width * 0.2, height * 0.2 + inputY + 100)
