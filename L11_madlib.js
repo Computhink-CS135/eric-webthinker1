@@ -41,8 +41,8 @@ function generateStory() {
     let noun = nounField.value();
     let verb = verbField.value();
     let adjective = adjectiveField.value();
-    let adverbField = adverbField.value();
-    let placeField = placeField.value();
+    let adverb = adverbField.value();
+    let place = placeField.value();
     console.log(noun)
     console.log(verb)
     console.log(adjective)
