@@ -12,6 +12,7 @@ function setup() {
     nounField = createInput();
     verbField = createInput();
     adjectiveField = createInput();
+    adverbField = createInput();
     
     inputText.position(inputX, inputY);
     inputText.input(updateText);
