@@ -34,8 +34,7 @@ function draw() {
     text("Enter a adjective: ", width * 0.2, height * 0.2 + 100)
     text("Enter a adverb: ", width * 0.2, height * 0.2 + 150)
     text("Enter a place: ", width * 0.2, height * 0.2 + 200)
-    // console.log(nounField);
 }
 function buttonExample() {
-    
+    console.log(nounField);
 }
