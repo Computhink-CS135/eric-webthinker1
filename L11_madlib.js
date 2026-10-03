@@ -24,8 +24,7 @@ function setup() {
     adverbField.position(width / 2, height * 0.2 + 150);
     placeField.position(width / 2, height * 0.2 + 200);
 
-    button = createButton();
-    
+    button = createButton(submit);
 }
 function draw() {
     background(220)
