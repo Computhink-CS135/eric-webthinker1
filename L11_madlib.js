@@ -5,8 +5,8 @@ let colourPicker;
 let nounField;
 let verbField;
 let adjectiveField;
-let adverbFieldField;
-let nounField;
+let adverbField;
+let placeField;
 
 function setup() {
     createCanvas(600, 400);
