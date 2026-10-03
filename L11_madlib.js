@@ -23,6 +23,8 @@ function setup() {
     adjectiveField.position(width / 2, height * 0.2 + 100);
     adverbField.position(width / 2, height * 0.2 + 150);
     placeField.position(width / 2, height * 0.2 + 200);
+
+    button = 
 }
 function draw() {
     background(220)
