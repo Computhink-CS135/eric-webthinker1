@@ -21,6 +21,7 @@ function setup() {
     placeField = createInput();
     inputText.position(inputX, inputY);
     inputText.input(updateText);
+    nounField.position
 }
 function draw() {
 
