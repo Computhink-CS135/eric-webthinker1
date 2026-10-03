@@ -49,6 +49,6 @@ function generateStory() {
     console.log(adverb)
     console.log(place)
 
-    let story = "A "
+    let story = "A ${noun}"
     console.log("")
 }
