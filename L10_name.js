@@ -1,7 +1,7 @@
 
 let inputText;
 let displayText = "Your Name Here";
-let colourpicker;
+let colourPicker;
 
 function setup() {
     createCanvas(600, 400);
@@ -13,7 +13,7 @@ function setup() {
     inputText.position(inputX, inputY);
     inputText.input(updateText);
 
-    colourpicker = createColour
+    colourPicker = createColourPicker
 }
 function draw() {
     background(220);
