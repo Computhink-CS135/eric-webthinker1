@@ -21,8 +21,8 @@ function setup() {
     placeField = createInput();
     nounField.position(width / 2 + inputX, height / 2 + inputY);
     verbField.position(width / 2 + inputX, height / 2 + inputY + 50);
-    adjectiveField.position(width / 2 + inputX, height / 2 + inputY + 10 );
-    adverbField.position(width / 2 + inputX, height / 2 + inputY);
+    adjectiveField.position(width / 2 + inputX, height / 2 + inputY + 100);
+    adverbField.position(width / 2 + inputX, height / 2 + inputY + 100);
     placeField.position(width / 2 + inputX, height / 2 + inputY);
 }
 function draw() {
