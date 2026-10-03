@@ -4,7 +4,7 @@ let displayText = "Your Name Here";
 let colourPicker;
 
 function setup() {
-    nounFeild = 
+    nounField = 
     createCanvas(600, 400);
     textSize(50);
     textAlign(CENTER, CENTER);
