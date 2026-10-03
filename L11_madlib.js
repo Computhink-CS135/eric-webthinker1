@@ -44,3 +44,4 @@ function Button() {
     console.log()
     console.log()
 }
+function generateStory()
