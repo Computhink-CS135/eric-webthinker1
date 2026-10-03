@@ -47,7 +47,7 @@ function Button() {
 function generateStory() {
     let nounField = nounField.value();
     let verbField = verbField.value();
-    let adjectiveField = adverbField.value();
+    let adjectiveField = adjectiveField.value();
     let adverbField = adverbField.value();
     let placeField = adverbField.value();
 }
