@@ -25,7 +25,7 @@ function setup() {
     placeField.position(width / 2, height * 0.2 + 200);
 
     button = createButton("submit");
-    placeField.position(width / 2, height * 0.2 + 250);
+    button.position(width / 2, height * 0.2 + 250);
 }
 function draw() {
     background(220)
