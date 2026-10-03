@@ -45,9 +45,15 @@ function Button() {
     console.log()
 }
 function generateStory() {
+    console.log("Button clicked!");
     let nounField = nounField.value();
     let verbField = verbField.value();
     let adjectiveField = adjectiveField.value();
     let adverbField = adverbField.value();
     let placeField = placeField.value();
+    console.log()
+    console.log()
+    console.log()
+    console.log()
+    console.log()
 }
