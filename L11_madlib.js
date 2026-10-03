@@ -48,4 +48,5 @@ function generateStory() {
     console.log(adjective)
     console.log(adverb)
     console.log(place)
+    con
 }
