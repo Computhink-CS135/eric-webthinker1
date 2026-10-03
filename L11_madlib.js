@@ -49,6 +49,6 @@ function generateStory() {
     // console.log(adverb)
     // console.log(place)
 
-    let story = `The ${adjective} ${noun} is ${verb}ing.`
+    let story = `The ${adjective} ${noun} decided to ${verb}ing.`
     console.log(story)
 }
