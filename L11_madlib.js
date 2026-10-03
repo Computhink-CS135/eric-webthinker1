@@ -49,5 +49,5 @@ function generateStory() {
     let verbField = verbField.value();
     let adjectiveField = adjectiveField.value();
     let adverbField = adverbField.value();
-    let placeField = adverbField.value();
+    let placeField = placeField.value();
 }
