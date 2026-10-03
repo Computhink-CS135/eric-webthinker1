@@ -48,6 +48,6 @@ function generateStory() {
     let nounField;
     let verbField;
     let adjectiveField;
-    let adverbField;
+    let adverbField = 
     let placeField;
 }
