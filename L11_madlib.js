@@ -46,6 +46,6 @@ function generateStory() {
     console.log(noun)
     console.log(verb)
     console.log(adjective)
-    console.log(ad)
-    console.log()
+    console.log(adverb)
+    console.log(place)
 }
