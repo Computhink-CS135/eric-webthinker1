@@ -20,6 +20,10 @@ function setup() {
     adverbField = createInput();
     placeField = createInput();
     nounField.position(width / 2 + inputX, height / 2 + inputY);
+    nounField.position(width / 2 + inputX, height / 2 + inputY);
+    nounField.position(width / 2 + inputX, height / 2 + inputY);
+    nounField.position(width / 2 + inputX, height / 2 + inputY);
+    nounField.position(width / 2 + inputX, height / 2 + inputY);
 }
 function draw() {
 
