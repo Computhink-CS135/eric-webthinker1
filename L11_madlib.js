@@ -26,7 +26,7 @@ function setup() {
 
     button = createButton("submit");
     button.position(width / 2, height * 0.2 + 250);
-    button.mousePressed(buttonExample)
+    button.mousePressed(buttonExample);
 }
 function draw() {
     background(220)
