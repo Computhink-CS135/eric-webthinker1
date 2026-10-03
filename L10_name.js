@@ -14,9 +14,9 @@ function setup() {
     inputText.input(updateText);
 
     colorPicker = createColorPicker;
-    let colorX = this.canvas.offsetLeft + (width / 2);
-    let colorY = this.canvas.offsetTop + (height * 0.7);
-    colourPicker.position(colourX, colorY);
+    let colourX = this.canvas.offsetLeft + (width / 2);
+    let colourY = this.canvas.offsetTop + (height * 0.7);
+    colourPicker.position(colourX, coloruY);
 }
 function draw() {
     background(220);
