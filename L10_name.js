@@ -19,7 +19,7 @@ function setup() {
     colourPicker.position(colourX, colourY);
 }
 function draw() {
-    background(220);
+    background(colourPicker.value);
     text(displayText, width / 2, height * 0.3);
 }
 function updateText() {
