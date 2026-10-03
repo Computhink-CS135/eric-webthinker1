@@ -7,6 +7,7 @@ let verbField;
 let adjectiveField;
 let adverbField;
 let placeField;
+let button
 
 function setup() {
     createCanvas(600, 400);
