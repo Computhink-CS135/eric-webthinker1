@@ -40,7 +40,8 @@ function Button() {
     console.log("Button clicked!");
     console.log()
     console.log()
-    console.log
+    console.log()
+    
     console.log
     console.log
 }
