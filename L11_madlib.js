@@ -2,7 +2,8 @@
 let inputText;
 let displayText = "Your Name Here";
 let colourPicker;
-let 
+let nounField;
+let nounField;
 
 function setup() {
     createCanvas(600, 400);
