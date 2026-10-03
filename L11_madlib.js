@@ -7,8 +7,6 @@ let verbField;
 let adjectiveField;
 let adverbField;
 let placeField;
-let inputX = this.canvas.offsetLeft;
-let inputY = this.canvas.offsetTop;
 
 function setup() {
     createCanvas(600, 400);
