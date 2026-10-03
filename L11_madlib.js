@@ -36,14 +36,6 @@ function draw() {
     text("Enter a adverb: ", width * 0.2, height * 0.2 + 150)
     text("Enter a place: ", width * 0.2, height * 0.2 + 200)
 }
-function Button() {
-    console.log("Button clicked!");
-    console.log()
-    console.log()
-    console.log()
-    console.log()
-    console.log()
-}
 function generateStory() {
     console.log("Button clicked!");
     let nounField = nounField.value();
