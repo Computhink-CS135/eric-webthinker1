@@ -3,8 +3,8 @@ let inputText;
 let displayText = "Your Name Here";
 let colourPicker;
 let nounField;
-let nounField;
-let nounField;
+let verbFieldField;
+let adjectiveFieldField;
 let nounField;
 let nounField;
 
