@@ -36,3 +36,6 @@ function draw() {
     text("Enter a place: ", width * 0.2, height * 0.2 + 200)
     // console.log(nounField);
 }
+function buttonExample() {
+    
+}
