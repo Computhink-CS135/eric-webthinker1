@@ -24,15 +24,14 @@ function setup() {
     adjectiveField.position(width / 2 + inputX, height * 0.2 + inputY + 100);
     adverbField.position(width / 2 + inputX, height * 0.2 + inputY + 150);
     placeField.position(width / 2 + inputX, height * 0.2 + inputY + 200);
-
-    text("Enter a noun: ", width * 0.2, height * 0.2 + inputY)
+}
+function draw() {
+    background(220)
+        text("Enter a noun: ", width * 0.2, height * 0.2 + inputY)
     text("Enter a verb: ", width * 0.2, height * 0.2 + inputY + 50)
     text("Enter a adjective: ", width * 0.2, height * 0.2 + inputY + 100)
     text("Enter a adverb: ", width * 0.2, height * 0.2 + inputY + 150)
     text("Enter a place: ", width * 0.2, height * 0.2 + inputY + 200)
-}
-function draw() {
-    background(220)
 }
 function updateText() {
     displayText = this.value();
