@@ -2,7 +2,7 @@
 let button;
 let inputText;
 let displayText = "TYPE SOMETHING";
-let wordArray = ["claustraphobic", "pseudo pseudo rhombohedron", "cataracts", "tripophobia", geogar]
+let wordArray = ["claustraphobic", "pseudo pseudo rhombohedron", "cataracts", "tripophobia", "geography]
 let randomWord;
 
 function setup() {
