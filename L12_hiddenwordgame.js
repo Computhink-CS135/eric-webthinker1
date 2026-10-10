@@ -2,6 +2,7 @@
 let button;
 let inputText;
 let displayText = "TYPE SOMETHING";
+let a
 
 function setup() {
     createCanvas(600, 400)
@@ -14,7 +15,7 @@ function setup() {
     inputText = createInput();
     inputText.position(inputX, inputY);
     inputText.input(updateText);
-    
+
     inputText.size(150, 30)
     inputText.style("background-color", "lightblue")
     inputText.style("font-size", "20px")
