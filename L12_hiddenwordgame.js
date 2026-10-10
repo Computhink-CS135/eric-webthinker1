@@ -2,7 +2,8 @@
 let 
 
 function setup() {
-createcanvas(6)
+    createcanvas(600, 400)
+    
 }
 function draw() {
 
