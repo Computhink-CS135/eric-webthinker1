@@ -19,9 +19,6 @@
 //     button.position(width / 3 + 75, height * 0.2 + inputY);
 //     button.mousePressed(submitGuess);
 // }
-// function draw() {
-
-// }
 // function updateText() {
 //     displayText = this.value();
 // }
@@ -36,5 +33,5 @@ function setup() {
     background(220);
 }
 function draw() {
-    
+
 }
