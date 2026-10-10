@@ -14,6 +14,7 @@ function setup() {
     inputText = createInput();
     inputText.position(inputX, inputY);
     inputText.input(updateText);
+    inputText
     button = createButton("submit");
     button.position(width / 3 + 75, height * 0.2 + inputY);
     button.mousePressed(submitGuess);
