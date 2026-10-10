@@ -34,9 +34,10 @@ function setup() {
     text(displayHint, width / 2, height * 0.4);
 }
 function updateText() {
-    displayText = this.value();
+    
 }
 function submitGuess() {
+    displayText = this.value();
     // background(220);
     // fill(random(0, 255), random(0, 255), random(0, 255));
     // text(displayText, width / 2, 100);
