@@ -33,7 +33,7 @@
 
 function setup() {
     createCanvas(600, 400)
-    background(100)
+    background(220)
     textSize(50);
     textAlign(CENTER, CENTER);
 }
