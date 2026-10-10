@@ -2,7 +2,7 @@
 let button;
 let inputText;
 let displayText = "TYPE SOMETHING";
-let wordArray = ["claustraphobic", "pseudopseudorhombohedron", "cataracts"]
+let wordArray = ["claustraphobic", "pseudo pseudo rhombohedron", "cataracts"]
 
 function setup() {
     createCanvas(600, 400)
