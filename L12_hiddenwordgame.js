@@ -2,7 +2,7 @@
 let button;
 let inputText;
 let displayText = "TYPE SOMETHING";
-let a
+let wordArray = []
 
 function setup() {
     createCanvas(600, 400)
