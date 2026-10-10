@@ -39,9 +39,9 @@ function updateText() {
 function submitGuess() {
     background(220);
     fill(random(0, 255), random(0, 255), random(0, 255));
-    text(displayText, width / 2, 100);
+    text(displayText, width / 2, height / 1.5);
     let letters = correctGuess(inputText, randomWord);
-    
+
 }
 function correctGuess(guess, word) {
     let correctletters = "";
