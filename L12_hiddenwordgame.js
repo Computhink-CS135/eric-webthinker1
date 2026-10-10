@@ -33,9 +33,7 @@ function setup() {
     displayHint = randomWord[0].toUpperCase() + " _".repeat(randomWord.length - 1)
     text(displayHint, width / 2, height * 0.4);
 }
-function updateText() {
-    
-}
+
 function submitGuess() {
     displayText = this.value();
     // background(220);
