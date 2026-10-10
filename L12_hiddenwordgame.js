@@ -4,6 +4,7 @@ let inputText;
 let displayText = "TYPE SOMETHING";
 let wordArray = ["claustraphobic", "pseudo pseudo rhombohedron", "cataracts", "tripophobia"]
 
+
 function setup() {
     createCanvas(600, 400)
     background(220);
@@ -27,7 +28,7 @@ function setup() {
     button.position(width / 3 + 75, height * 0.2 + inputY);
     button.mousePressed(submitGuess);
 
-    randomWord = random(wordArray)
+    randomWord = random(wordArray);
 }
 function updateText() {
     displayText = this.value();
