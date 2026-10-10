@@ -25,5 +25,6 @@ function updateText() {
     displayText = this.value();
 }
 function submitGuess() {
-
+    background(100)
+    text(displayText, width / 2, 100)
 }
