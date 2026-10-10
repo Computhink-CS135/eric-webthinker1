@@ -25,5 +25,5 @@ function updateText() {
 }
 function generateStory() {
     text(displayText, 400, 300)
-    
+    background(100)
 }
