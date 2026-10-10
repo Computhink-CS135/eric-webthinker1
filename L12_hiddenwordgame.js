@@ -2,7 +2,7 @@
 let button;
 let inputText;
 let displayText = "TYPE SOMETHING";
-let wordArray = ["claustraphobic", "rhombohedron", "cataracts", "tripophobia", "geography", "hippopotamus",, "Supercalifragilisticexpialidocious", "Antidisestablishmentarianism"]
+let wordArray = ["claustraphobic", "rhombohedron", "cataracts", "tripophobia", "geography", "hippopotamus","", "Supercalifragilisticexpialidocious", "Antidisestablishmentarianism"]
 let randomWord;
 let displayHint;
 
@@ -40,4 +40,7 @@ function submitGuess() {
     background(220);
     fill(random(0, 255), random(0, 255), random(0, 255));
     text(displayText, width / 2, 100);
+}
+function correctGuess() {
+    
 }
