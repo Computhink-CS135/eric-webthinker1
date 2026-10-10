@@ -16,11 +16,10 @@ function setup() {
     let inputY = this.canvas.offsetTop + (height / 2) - 10;
     inputField = createInput();
     inputField.position(inputX, inputY);
-    inputText.input(updateText);
 
-    inputText.size(150, 30);
-    inputText.style("background-color", "lightblue");
-    inputText.style("font-size", "20px");
+    inputField.size(150, 30);
+    inputField.style("background-color", "lightblue");
+    inputField.style("font-size", "20px");
     inputText.style("border", "1px solid black");
     inputText.style("color", "purple");
     inputText.style("text-align", "center");
