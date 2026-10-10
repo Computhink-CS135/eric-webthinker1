@@ -27,7 +27,7 @@ function setup() {
     button.position(width / 3 + 75, height * 0.2 + inputY);
     button.mousePressed(submitGuess);
 
-    randomWord = random
+    randomWord = random(wordArray)
 }
 function updateText() {
     displayText = this.value();
