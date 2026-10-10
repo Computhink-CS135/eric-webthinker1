@@ -24,5 +24,5 @@ function updateText() {
     console.log(displayText);
 }
 function generateStory() {
-    
+    text("")
 }
