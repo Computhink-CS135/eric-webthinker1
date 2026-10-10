@@ -42,9 +42,10 @@ function submitGuess() {
     text(displayText, width / 2, 100);
 }
 function correctGuess(guess, word) {
+    let corr
     for (let i = 0; i < word.length; i++) {
         if (word.includes(guess[i])) {
-            
+
         }
     }
 }
