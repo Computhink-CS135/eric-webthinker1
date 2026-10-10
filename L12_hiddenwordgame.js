@@ -10,7 +10,7 @@ function setup() {
     textAlign(CENTER, CENTER);
 
     createInput();
-    inputText.position(inputX, inputY);
+    inputText.position(300, 200);
     inputText.input(updateText);
     button = createButton("submit");
     button.position(width / 2, height * 0.2 + 250);
