@@ -1,6 +1,6 @@
 
 let button;
-let inputText;
+let inputField;
 let displayText = "TYPE SOMETHING";
 let wordArray = ["claustraphobic", "rhombohedron", "cataracts", "tripophobia", "geography", "hippopotamus","Pseudopseudohypoparathyroidism", "Supercalifragilisticexpialidocious", "Antidisestablishmentarianism"];
 let randomWord;
