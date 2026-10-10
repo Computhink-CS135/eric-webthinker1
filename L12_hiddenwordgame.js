@@ -6,10 +6,11 @@ let displayText = "Your Name Here";
 function setup() {
     createCanvas(600, 400)
     background(100)
-    
+
     createInput();
-    textSize(50);
-    textAlign(CENTER, CENTER);
+    button = createButton("submit");
+    button.position(width / 2, height * 0.2 + 250);
+    button.mousePressed(generateStory);
 }
 function draw() {
 
