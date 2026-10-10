@@ -41,6 +41,6 @@ function submitGuess() {
     fill(random(0, 255), random(0, 255), random(0, 255));
     text(displayText, width / 2, 100);
 }
-function correctGuess() {
+function correctGuess(guess, word) {
 
 }
