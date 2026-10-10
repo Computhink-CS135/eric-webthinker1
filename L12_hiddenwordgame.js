@@ -26,6 +26,8 @@ function setup() {
     button = createButton("submit");
     button.position(width / 3 + 75, height * 0.2 + inputY);
     button.mousePressed(submitGuess);
+
+    randomWord = random
 }
 function updateText() {
     displayText = this.value();
