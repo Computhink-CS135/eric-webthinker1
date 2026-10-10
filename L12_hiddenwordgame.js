@@ -7,7 +7,7 @@ let randomWord;
 let displayHint;
 
 function setup() {
-    createCanvas(600, 400)
+    createCanvas(600, 400);
     background(220);
     textSize(20);
     textAlign(CENTER, CENTER);
@@ -18,12 +18,12 @@ function setup() {
     inputText.position(inputX, inputY);
     inputText.input(updateText);
 
-    inputText.size(150, 30)
-    inputText.style("background-color", "lightblue")
-    inputText.style("font-size", "20px")
-    inputText.style("border", "1px solid black")
-    inputText.style("color", "purple")
-    inputText.style("text-align", "center")
+    inputText.size(150, 30);
+    inputText.style("background-color", "lightblue");
+    inputText.style("font-size", "20px");
+    inputText.style("border", "1px solid black");
+    inputText.style("color", "purple");
+    inputText.style("text-align", "center");
 
     button = createButton("submit");
     button.position(width / 3 + 75, height * 0.2 + inputY);
