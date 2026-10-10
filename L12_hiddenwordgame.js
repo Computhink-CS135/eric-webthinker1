@@ -40,7 +40,7 @@ function submitGuess() {
     background(220);
     fill(random(0, 255), random(0, 255), random(0, 255));
     text(displayText, width / 2, 100);
-    let letters
+    let letters = correctGuess
 }
 function correctGuess(guess, word) {
     let correctletters = "";
