@@ -34,7 +34,7 @@ function setup() {
 }
 
 function submitGuess() {
-    displayText = this.value();
+    let inputText = inputField.value();
     // background(220);
     // fill(random(0, 255), random(0, 255), random(0, 255));
     // text(displayText, width / 2, 100);
