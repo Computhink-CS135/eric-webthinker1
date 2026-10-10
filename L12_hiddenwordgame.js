@@ -30,7 +30,7 @@ function setup() {
     button.mousePressed(submitGuess);
 
     randomWord = random(wordArray);
-    displayHint = randomWord[0].toUpperCase() + " " + "_".repeat(randomWord.length)
+    displayHint = randomWord[0].toUpperCase() + " " + "_".repeat(randomWord.length -1)
 }
 function updateText() {
     displayText = this.value();
