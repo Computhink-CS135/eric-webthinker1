@@ -1,8 +1,8 @@
 
-let 
+// let 
 
 function setup() {
-    createcanvas(600, 400)
+    createCanvas(600, 400)
     background(220)
 }
 function draw() {
