@@ -9,7 +9,7 @@ let displayHint;
 function setup() {
     createCanvas(600, 400)
     background(220);
-    textSize(50);
+    textSize(20);
     textAlign(CENTER, CENTER);
 
     let inputX = this.canvas.offsetLeft + (width / 2) - 80;
