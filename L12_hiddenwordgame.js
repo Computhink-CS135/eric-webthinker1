@@ -1,5 +1,5 @@
 
-let button;
+let buttonA;
 let inputText;
 let displayText = "TYPE SOMETHING";
 
@@ -14,7 +14,7 @@ function setup() {
     inputText = createInput();
     inputText.position(inputX, inputY);
     inputText.input(updateText);
-    button = createButton("submit");
+    buttonA = createButton("submit");
     button.position(width / 3 + 75, height * 0.2 + inputY);
     button.mousePressed(generateStory);
 }
