@@ -2,8 +2,8 @@
 let button;
 let inputText;
 let displayText = "TYPE SOMETHING";
-let wordArray = ["claustraphobic", "pseudo pseudo rhombohedron", "cataracts", "tripophobia"]
-let randomWord
+let wordArray = ["claustraphobic", "pseudo pseudo rhombohedron", "cataracts", "tripophobia", ]
+let randomWord;
 
 function setup() {
     createCanvas(600, 400)
