@@ -19,3 +19,7 @@ function setup() {
 function draw() {
 
 }
+function updateText() {
+    displayText = this.value();
+    console.log(displayText);
+}
