@@ -14,6 +14,7 @@ function setup() {
     inputText = createInput();
     inputText.position(inputX, inputY);
     inputText.input(updateText);
+    
     inputText.size(150, 30)
     inputText.style("background-color", "lightblue")
     inputText.style("font-size", "20px")
