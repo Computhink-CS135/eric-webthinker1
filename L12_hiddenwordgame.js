@@ -42,7 +42,7 @@ function submitGuess() {
     text(displayText, width / 2, 100);
 }
 function correctGuess(guess, word) {
-    for (let i = 0; i < 5; i++) {
-        
+    for (let i = 0; i < word.length; i++) {
+
     }
 }
