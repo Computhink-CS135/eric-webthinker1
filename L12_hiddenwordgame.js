@@ -16,7 +16,7 @@ function setup() {
     inputText.input(updateText);
     inputText.size(150, 30)
     inputText.style("background-color", "blue")
-    inputText.style("background-color", "blue")
+    inputText.style("font-siez", "blue")
     inputText.style("background-color", "blue")
 
     button = createButton("submit");
