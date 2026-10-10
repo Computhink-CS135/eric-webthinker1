@@ -1,4 +1,5 @@
 
+// recap 1
 let button;
 let inputText;
 let displayText = "TYPE SOMETHING";
