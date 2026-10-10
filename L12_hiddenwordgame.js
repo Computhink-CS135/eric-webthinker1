@@ -4,7 +4,7 @@ let inputText;
 let displayText = "TYPE SOMETHING";
 let wordArray = ["claustraphobic", "pseudo pseudo rhombohedron", "cataracts", "tripophobia", "geography", "hippopotamus"]
 let randomWord;
-let display;
+let displayHint;
 
 function setup() {
     createCanvas(600, 400)
