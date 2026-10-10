@@ -24,6 +24,7 @@ function updateText() {
     console.log(displayText);
 }
 function generateStory() {
-    text(displayText, 400, 300)
     background(100)
+    text(displayText, 400, 300)
+
 }
