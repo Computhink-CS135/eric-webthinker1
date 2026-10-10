@@ -9,7 +9,7 @@ function setup() {
     textSize(50);
     textAlign(CENTER, CENTER);
 
-    createInput();
+    inputText = createInput();
     inputText.position(300, 200);
     inputText.input(updateText);
     button = createButton("submit");
