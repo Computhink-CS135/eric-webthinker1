@@ -31,3 +31,9 @@
 //     text(displayText, width / 2, 100)
 // }
 
+function setup() {
+    createCanvas(600, 400)
+    background(100)
+    textSize(50);
+    textAlign(CENTER, CENTER);
+}
