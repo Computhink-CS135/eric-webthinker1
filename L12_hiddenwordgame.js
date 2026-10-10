@@ -23,7 +23,6 @@ function draw() {
 }
 function updateText() {
     displayText = this.value();
-    console.log(displayText);
 }
 function generateStory() {
     background(100)
