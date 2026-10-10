@@ -14,8 +14,8 @@ function setup() {
 
     let inputX = this.canvas.offsetLeft + (width / 2) - 80;
     let inputY = this.canvas.offsetTop + (height / 2) - 10;
-    inputText = createInput();
-    inputText.position(inputX, inputY);
+    inputField = createInput();
+    inputField.position(inputX, inputY);
     inputText.input(updateText);
 
     inputText.size(150, 30);
