@@ -20,9 +20,9 @@ function setup() {
     inputField.size(150, 30);
     inputField.style("background-color", "lightblue");
     inputField.style("font-size", "20px");
-    inputText.style("border", "1px solid black");
-    inputText.style("color", "purple");
-    inputText.style("text-align", "center");
+    inputField.style("border", "1px solid black");
+    inputField.style("color", "purple");
+    inputField.style("text-align", "center");
 
     button = createButton("submit");
     button.position(width / 3 + 75, height * 0.2 + inputY);
