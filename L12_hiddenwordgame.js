@@ -26,6 +26,6 @@ function updateText() {
 }
 function generateStory() {
     background(100)
-    text(displayText, 400, 300)
+    text(displayText, width / 2, 100)
 
 }
