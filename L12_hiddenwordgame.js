@@ -1,7 +1,7 @@
 
 let button;
 let inputText;
-let displayText = "Your Name Here";
+let displayText = "TYPE SOMETHING";
 
 function setup() {
     createCanvas(600, 400)
