@@ -42,5 +42,5 @@ function submitGuess() {
     text(displayText, width / 2, 100);
 }
 function correctGuess(guess, word) {
-
+    
 }
