@@ -26,5 +26,6 @@ function updateText() {
 }
 function submitGuess() {
     background(100)
+    FileList()
     text(displayText, width / 2, 100)
 }
