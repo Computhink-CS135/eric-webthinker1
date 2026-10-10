@@ -24,7 +24,7 @@ function draw() {
 function updateText() {
     displayText = this.value();
 }
-function generateStory() {
+function submit() {
     background(100)
     text(displayText, width / 2, 100)
 
