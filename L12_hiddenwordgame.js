@@ -12,7 +12,7 @@ function setup() {
     let inputX = this.canvas.offsetLeft + (width / 2) - 80;
     let inputY = this.canvas.offsetTop + (height / 2) - 10;
     inputText = createInput();
-    inputText.position(inputX, in);
+    inputText.position(inputX, inputY);
     inputText.input(updateText);
     button = createButton("submit");
     button.position(width / 2, height * 0.2 + 250);
