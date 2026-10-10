@@ -31,7 +31,7 @@ function setup() {
 
     randomWord = random(wordArray);
     displayHint = randomWord[0].toUpperCase() + " _".repeat(randomWord.length - 1)
-    text(displayHint, width / 2, height * 0.4);
+    text("Hint: " displayHint, width / 2, height * 0.4);
 }
 function updateText() {
     displayText = this.value();
