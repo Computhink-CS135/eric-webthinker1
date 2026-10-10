@@ -37,7 +37,7 @@ function submitGuess() {
     let inputText = inputField.value();
     // background(220);
     fill(random(0, 255), random(0, 255), random(0, 255));
-    text(displayText, width / 2, 100);
+    text(inputText, width / 2, 100);
     let letters = correctGuess(inputText, randomWord);
     console.log(letters)
 
