@@ -15,7 +15,7 @@ function setup() {
     inputText.position(inputX, inputY);
     inputText.input(updateText);
     button = createButton("submit");
-    button.position(width / 3 + 50, height * 0.2 + inputY);
+    button.position(width / 3 + 75, height * 0.2 + inputY);
     button.mousePressed(generateStory);
 }
 function draw() {
