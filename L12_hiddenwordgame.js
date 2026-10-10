@@ -2,7 +2,7 @@
 let button;
 let inputText;
 let displayText = "TYPE SOMETHING";
-let wordArray = ["claustraphobic", "rhombohedron", "cataracts", "tripophobia", "geography", "hippopotamus", ""]
+let wordArray = ["claustraphobic", "rhombohedron", "cataracts", "tripophobia", "geography", "hippopotamus", "Pneumonoultramicroscopicsilicovolcanoconiosis", ""]
 let randomWord;
 let displayHint;
 
