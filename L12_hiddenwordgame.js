@@ -41,6 +41,7 @@ function submitGuess() {
     fill(random(0, 255), random(0, 255), random(0, 255));
     text(displayText, width / 2, 100);
     let letters = correctGuess(inputText, randomWord);
+    
 }
 function correctGuess(guess, word) {
     let correctletters = "";
