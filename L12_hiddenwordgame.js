@@ -10,6 +10,8 @@ function setup() {
     textAlign(CENTER, CENTER);
 
     createInput();
+    inputText.position(inputX, inputY);
+    inputText.input(updateText);
     button = createButton("submit");
     button.position(width / 2, height * 0.2 + 250);
     button.mousePressed(generateStory);
