@@ -16,7 +16,7 @@ function setup() {
     inputText.input(updateText);
     buttonA = createButton("submit");
     button.position(width / 3 + 75, height * 0.2 + inputY);
-    button.mousePressed(generateStory);
+    button.mousePressed(lol);
 }
 function draw() {
 
@@ -24,7 +24,7 @@ function draw() {
 function updateText() {
     displayText = this.value();
 }
-function generateStory() {
+function lol() {
     background(100)
     text(displayText, width / 2, 100)
 
