@@ -36,7 +36,10 @@ function draw() {
     fill(255, 0, 255);
     rect(playerX, playerY, playerSize, playerSize);
 
-    fill()
+    fill(255, 0, 0);
+    for (let i = 0; i < spikesX.length; i++) {
+        
+    }
 }
 function keyPressed() {
     if (key === " " && isGrounded === true) {
