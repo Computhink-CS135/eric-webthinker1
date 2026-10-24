@@ -15,7 +15,7 @@ function setup() {
     textAlign(CENTER, CENTER);
     playerY = height - playerSize;
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 6; i++) {
         spikesX.push(width + i * 300);
     }
 }
