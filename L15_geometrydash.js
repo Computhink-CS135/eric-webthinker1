@@ -4,10 +4,10 @@ let playerY;
 let playerSize = 30;
 let velocity = 0;
 let isGrounded = false;
-let spikesX = [];
 
-let spikeWidth =20;
-let spikeHeight = 30; 20;
+let spikesX = [];
+let spikeWidth = 20;
+let spikeHeight = 30;
 let spikeSpeed = 5;
 
 function setup() {
