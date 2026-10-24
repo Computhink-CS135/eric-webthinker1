@@ -25,7 +25,6 @@ function draw() {
     background(220);
 
     if (!gameOver) {
-            
         velocity += 0.8;
         playerY += velocity;
     
