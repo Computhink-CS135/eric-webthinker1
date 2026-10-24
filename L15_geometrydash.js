@@ -8,6 +8,6 @@ let isGrounded = false;
 function setup() {
     createCanvas(600, 400);
     textAlign(CENTER, CENTER);
-    player
+    playerY = height - playerSize
 
 }
