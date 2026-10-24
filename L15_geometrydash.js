@@ -11,3 +11,6 @@ function setup() {
     textAlign(CENTER, CENTER);
     playerY = height - playerSize;
 }
+function draw() {
+    
+}
