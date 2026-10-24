@@ -13,5 +13,5 @@ function setup() {
 function draw() {
     background(220);
 
-    rect(playerX, playerY, playerSize, pla);
+    rect(playerX, playerY, playerSize, playerSize);
 }
