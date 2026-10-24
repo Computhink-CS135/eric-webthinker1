@@ -36,7 +36,7 @@ function draw() {
     fill(255, 0, 255);
     rect(playerX, playerY, playerSize, playerSize);
 
-    fill(255, 0, 0);
+    fill(random(0, 255), 0, 0);
     for (let i = 0; i < spikesX.length; i++) {
         spikesX[i] -= spikeSpeed;
 
