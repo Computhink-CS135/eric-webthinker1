@@ -15,7 +15,7 @@ function setup() {
     textAlign(CENTER, CENTER);
     playerY = height - playerSize;
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 10; i++) {
         spikesX.push(width + i * 300);
     }
 }
@@ -41,7 +41,7 @@ function draw() {
         spikesX[i] -= spikeSpeed;
 
         if (spikesX[i] < -spikeWidth) {
-            spikesX[i] = width + random(300, 500);
+            spikesX[i] = width + random(300, 1000);
             
         }
 
