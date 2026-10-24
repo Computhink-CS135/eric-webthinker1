@@ -44,7 +44,7 @@ function draw() {
             spikesX[i] = width + random(100, 300);
         }
 
-        triangle(spikesX[i], height, spikes)
+        triangle(spikesX[i], height, spikesX[i])
     }
 }
 function keyPressed() {
