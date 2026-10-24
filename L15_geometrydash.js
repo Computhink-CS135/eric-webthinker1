@@ -20,6 +20,8 @@ function draw() {
         playerY = height - playerSize;
         isGrounded = true;
         velocity = 0;
+    } else {
+        isGrounded = false;
     }
 
     fill(255, 0, 255);
