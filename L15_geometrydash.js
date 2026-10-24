@@ -52,9 +52,8 @@ function draw() {
 
             if (playerX + playerSize > spikesX[i] &&
                 playerX < spikesX[i] + spikeWidth &&
-                playerY + playerSize > height - spikeHeight
-            ) {
-                
+                playerY + playerSize > height - spikeHeight) {
+                gameOver = true;
             }
         }
     } else {
