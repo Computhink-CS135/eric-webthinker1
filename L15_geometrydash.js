@@ -52,7 +52,7 @@ function draw() {
         }
     } else {
         fill(0, 0, 0);
-        text("")
+        text("Game Over!", width)
     }
 }
 function keyPressed() {
