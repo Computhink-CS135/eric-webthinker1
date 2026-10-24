@@ -5,6 +5,7 @@ let playerSize = 30;
 let velocity = 0;
 let isGrounded = false;
 let spikesX = [];
+spike
 let spikeWidth = 20;
 let spikeSpeed = 5;
 
