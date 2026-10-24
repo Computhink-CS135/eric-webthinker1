@@ -53,7 +53,7 @@ function draw() {
     } else {
         fill(0, 0, 0);
         textSize(40);
-        text("Game Over!", width / 2 ,height / 2);
+        text("GGs ", width / 2 ,height / 2);
     }
 }
 function keyPressed() {
