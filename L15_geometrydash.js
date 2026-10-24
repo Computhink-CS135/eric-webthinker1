@@ -29,6 +29,6 @@ function draw() {
 }
 function keyPressed() {
     if (key === " " && isGrounded === true) {
-        
+        velocity
     }
 }
