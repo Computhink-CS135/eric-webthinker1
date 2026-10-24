@@ -36,7 +36,7 @@ function draw() {
     fill(255, 0, 255);
     rect(playerX, playerY, playerSize, playerSize);
 
-    draw
+    fill()
 }
 function keyPressed() {
     if (key === " " && isGrounded === true) {
