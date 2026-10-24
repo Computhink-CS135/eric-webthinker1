@@ -16,7 +16,7 @@ function setup() {
     playerY = height - playerSize;
 
     for (let i = 0; i < 3; i++) {
-        spikesX.pu
+        spikesX.push(width + i )
     }
 }
 function draw() {
