@@ -13,5 +13,6 @@ function setup() {
 function draw() {
     background(220);
 
+    fill()
     rect(playerX, playerY, playerSize, playerSize);
 }
